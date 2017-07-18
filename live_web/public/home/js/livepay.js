@@ -1,0 +1,6 @@
+/*!
+ * @project : YY
+ * @version : 1.0.0
+ * @author  : vicky
+ * @update  : 2015-06-08 06:08:26 PM
+ */function getUrlParam(url,argname){for(var arrStr=url.substring(url.indexOf("?")+1).split("&"),i=0;i<arrStr.length;i++){var loc=arrStr[i].indexOf(argname+"=");if(-1!=loc)return arrStr[i].replace(argname+"=","").replace("?","")}return""}var yb_util={payMoneyCallbackJs:function(jsondata){jsondata.code&&"1"==jsondata.code?"function"==typeof pay.auth.close&&(pay.auth.close("ok"),confirmRenewPopbox.open(),nobleUtil.queryPayResult()):jsondata.code&&"2"==jsondata.code?"function"==typeof pay.auth.close&&pay.auth.close("apply"):jsondata.code&&"3"==jsondata.code?"function"==typeof pay.auth.close&&pay.auth.close("cancel"):jsondata.code&&"-31"==jsondata.code?"function"==typeof pay.auth.close&&pay.auth.close("cancel"):"-1"==jsondata.code?pay.auth.securityCodeErr(jsondata.info):pay.auth.showError(jsondata.info)},execute:function(obj){var urlKey=getUrlParam(obj.param.url,"urlKey"),duowanb=getUrlParam(obj.param.url,"duowanb"),commission=getUrlParam(obj.param.url,"commission"),link="http://inf.pay.duowan.com/payment/openAuth.action?urlKey="+urlKey+"&duowanb="+duowanb+"&commission="+commission;pay.JsLoader.loadAuthDivForUrl(link,"yb_util.payMoneyCallbackJs")},pay:function(){return yb_util}};
