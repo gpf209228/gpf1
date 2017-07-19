@@ -25,7 +25,8 @@ class ColumnController extends Controller
                 {
                     if (file_exists("upload/" . $_FILES["file"]["name"]))
                     {
-                        $_POST['']="upload/" . $_FILES["file"]["name"];
+                        $_POST['class_path']="upload/" . $_FILES["file"]["name"];
+                        $_POST['class_img']=$_FILES['file']['name'];
                     }
                     else
                     {
@@ -41,7 +42,8 @@ class ColumnController extends Controller
            if(!empty($_POST['class_name'])){
                $sql=$db->createCommand("select * from class where class_name='$_POST[class_name]'")->execute();
                 if(!$sql){
-                   $sql= $db->createCommand("insert into class (`class_name`,`class_img`,`class_path`,`class_p_id`) values ('$_POST[class_name]','$_POST[class_img]','$_POST[class_path]','$_POST[class_p_id]')")->execute();
+                   $sql= $db->createCommand("insert into class (`class_rank`,`class_name`,`class_img`,
+                    `class_path`,`class_p_id`) values ('$_POST[class_rank]','$_POST[class_name]','$_POST[class_img]','$_POST[class_path]','$_POST[class_p_id]')")->execute();
                     if(!$sql){
                         echo "添加失败";
                     }
@@ -96,7 +98,7 @@ class ColumnController extends Controller
 
             if(isset($_POST['class_id'])){
                 $db=yii::$app->db;
-                    $sql="update class set class_name='$_POST[class_name]',class_p_id='$_POST[class_p_id]' where class_id='$_POST[class_id]'";
+                    $sql="update class set class_rank='$_POST[class_rank]',class_name='$_POST[class_name]',class_p_id='$_POST[class_p_id]' where class_id='$_POST[class_id]'";
                     $db->createCommand($sql)->execute();
                 if(!$_FILES['file']['name']==""){
                     if ((($_FILES["file"]["type"] == "image/gif") || ($_FILES["file"]["type"] == "image/jpeg") || ($_FILES["file"]["type"] == "image/pjpeg")) && ($_FILES["file"]["size"] < 200000))
