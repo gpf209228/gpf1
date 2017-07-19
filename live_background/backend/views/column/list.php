@@ -63,6 +63,7 @@
 
 												
 											<tbody role="alert" aria-live="polite" aria-relevant="all">
+                                            <?php foreach($class as $v){ ?>
 												<tr class="odd" v-for="(nav,index) in navs">
 														<td class="center  sorting_1">
 															<label>
@@ -70,19 +71,20 @@
 																<span class="lbl"></span>
 															</label>
 														</td>
-														<td class=" ">{{nav.id}}</td>
-														<td class=" ">{{nav.name}}</td>
+														<td class=" "><?php echo $v['class_id'] ?></td>
+														<td class=" "><?php  if($v['class_p_id']==0){ echo $v['class_name']; }else{ echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp".$v['class_name']; } ?></td>
 														<td class=" ">
 															<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-																<button class="green">
-																	<i class="icon-pencil bigger-130"></i>
-																</button>
-																<button class="red">
-																	<i class="icon-trash bigger-130"></i>
-																</button>
+
+                                                                <a href="?r=column/save&class_id=<?php echo $v['class_id'] ?>"><i class="icon-pencil bigger-130"></i></a>
+
+                                                                <a href="?r=column/del&class_id=<?php echo $v['class_id'] ?>"><i class="icon-trash bigger-130"></i></a>
+
+
 															</div>
 														</td>
 													</tr>
+                                            <?php } ?>
 												</tbody>
 												</table>
 												<div class="row"><div class="col-sm-6"><div class="dataTables_info" id="sample-table-2_info">Showing 1 to 10 of 23 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_bootstrap"><ul class="pagination"><li class="prev disabled"><a href="#"><i class="icon-double-angle-left"></i></a></li><li class="active"><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li class="next"><a href="#"><i class="icon-double-angle-right"></i></a></li></ul></div></div></div></div>

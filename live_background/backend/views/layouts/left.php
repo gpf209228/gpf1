@@ -175,7 +175,7 @@ use yii\helpers\Url;
 						<li>
 							<a href="#" class="dropdown-toggle">
 								<i class="icon-list"></i>
-								<span class="menu-text"> 栏目管理 </span>
+								<span class="menu-text"> 分类管理 </span>
 
 								<b class="arrow icon-angle-down"></b>
 							</a>
@@ -185,14 +185,14 @@ use yii\helpers\Url;
 									<a href="<?php echo Url::to(['column/add']) ?>">
 										<i class="icon-double-angle-right"></i>
 										<i class="icon-plus"></i>
-										栏目添加
+										分类添加
 									</a>
 								</li>
 								<li>
 									<a href="<?php echo Url::to(['column/list']) ?>">
 										<i class="icon-double-angle-right"></i>
 										<i class="icon-eye-open"></i>
-										栏目列表
+										分类列表
 									</a>
 								</li>
 							</ul>
