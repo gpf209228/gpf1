@@ -73,6 +73,16 @@
                                         </div>
                                     </div>
 
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 分类排序 </label>
+
+                                        <div class="col-sm-9">
+                                            <div class="col-xs-12 col-sm-3">
+                                                <input id="form-field-1" v-model="name" name="class_rank" placeholder=" class rank " class="col-xs-10 col-sm-12" type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
 									<div class="space-4"></div>
 
 									<div class="clearfix form-actions">
