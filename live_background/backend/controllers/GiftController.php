@@ -10,7 +10,7 @@ class GiftController extends Controller
 {
     public $enableCsrfValidation = false;
     /*
-        导航添加
+        礼物添加
      */
     public function actionAdd()
     {
@@ -35,7 +35,7 @@ class GiftController extends Controller
 
 
     /*
-        导航列表
+        礼物列表
      */
     public function actionList()
     {
@@ -50,7 +50,7 @@ class GiftController extends Controller
     }
 
     /*
-        导航修改
+        礼物修改
      */
     public function actionSave()
     {
@@ -66,7 +66,7 @@ class GiftController extends Controller
                 }
             }
 
-            $this->redirect("?r=gift/save&gift=$_POST[gift_id]");
+            $this->redirect("?r=gift/list&gift=$_POST[gift_id]");
         }else{
 
             $db=yii::$app->db;
@@ -77,7 +77,7 @@ class GiftController extends Controller
     }
 
     /*
-        导航删除
+        礼物删除
      */
     public function actionDel()
     {
