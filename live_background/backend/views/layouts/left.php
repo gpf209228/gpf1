@@ -100,50 +100,6 @@ use yii\helpers\Url;
 										</li>
 									</ul>
 								</li>
-
-
-								<!-- <li>
-									<a href="#" class="dropdown-toggle">
-										<i class="icon-double-angle-right"></i>
-								
-										普通用户
-										<b class="arrow icon-angle-down"></b>
-									</a>
-								
-									<ul class="submenu">
-										<li>
-											<a href="#">
-												<i class="icon-leaf"></i>
-												第一级
-											</a>
-										</li>
-								
-										<li>
-											<a href="#" class="dropdown-toggle">
-												<i class="icon-pencil"></i>
-								
-												第四级
-												<b class="arrow icon-angle-down"></b>
-											</a>
-								
-											<ul class="submenu">
-												<li>
-													<a href="#">
-														<i class="icon-plus"></i>
-														添加产品
-													</a>
-												</li>
-								
-												<li>
-													<a href="#">
-														<i class="icon-eye-open"></i>
-														查看商品
-													</a>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</li> -->
 							</ul>
 						</li>
 
@@ -172,6 +128,33 @@ use yii\helpers\Url;
 								</li>
 							</ul>
 						</li>
+
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 文章管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="<?php echo Url::to(['article/add']) ?>">
+										<i class="icon-double-angle-right"></i>
+										<i class="icon-plus"></i>
+										文章添加
+									</a>
+								</li>
+								<li>
+									<a href="<?php echo Url::to(['article/list']) ?>">
+										<i class="icon-double-angle-right"></i>
+										<i class="icon-eye-open"></i>
+										文章列表
+									</a>
+								</li>
+							</ul>
+						</li>
+
 						<li>
 							<a href="#" class="dropdown-toggle">
 								<i class="icon-list"></i>
