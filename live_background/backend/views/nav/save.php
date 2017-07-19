@@ -25,7 +25,7 @@
 								Nav
 								<small>
 									<i class="icon-double-angle-right"></i>
-									save
+									add
 								</small>
 							</h1>
 						</div><!-- /.page-header -->
@@ -34,24 +34,14 @@
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
 
-								<form action="?r=nav/save_do" class="form-horizontal" role="form" method="post">
-									<input type="hidden" name="nav_id" value="<?=$navList['nav_id']?>">
+								<form class="form-horizontal" role="form">
+
 									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 导航名 </label>
+										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Nav Name </label>
 
 										<div class="col-sm-9">
 											<div class="col-xs-12 col-sm-3">
-												<input name="nav_name" v-model="name" value="<?=$navList['nav_name']?>" placeholder=" 导航名称 " class="col-xs-10 col-sm-12" type="text">
-											</div>
-										</div>
-									</div>
-
-									<div class="form-group">
-										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 导航链接 </label>
-
-										<div class="col-sm-9">
-											<div class="col-xs-12 col-sm-3">
-												<input name="nav_link" v-model="name" value="<?=$navList['nav_link']?>" placeholder=" 导航链接 " class="col-xs-10 col-sm-12" type="text">
+												<input id="form-field-1" v-model="name" placeholder=" nav name " class="col-xs-10 col-sm-12" type="text">
 											</div>
 										</div>
 									</div>
@@ -60,7 +50,7 @@
 
 									<div class="clearfix form-actions">
 										<div class="col-md-offset-2 col-md-9">
-											<button class="btn btn-info" type="submit">
+											<button class="btn btn-info" type="button">
 												<i class="icon-ok bigger-110"></i>
 												修改
 											</button>

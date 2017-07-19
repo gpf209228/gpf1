@@ -100,11 +100,55 @@ use yii\helpers\Url;
 										</li>
 									</ul>
 								</li>
+
+
+								<!-- <li>
+									<a href="#" class="dropdown-toggle">
+										<i class="icon-double-angle-right"></i>
+								
+										普通用户
+										<b class="arrow icon-angle-down"></b>
+									</a>
+								
+									<ul class="submenu">
+										<li>
+											<a href="#">
+												<i class="icon-leaf"></i>
+												第一级
+											</a>
+										</li>
+								
+										<li>
+											<a href="#" class="dropdown-toggle">
+												<i class="icon-pencil"></i>
+								
+												第四级
+												<b class="arrow icon-angle-down"></b>
+											</a>
+								
+											<ul class="submenu">
+												<li>
+													<a href="#">
+														<i class="icon-plus"></i>
+														添加产品
+													</a>
+												</li>
+								
+												<li>
+													<a href="#">
+														<i class="icon-eye-open"></i>
+														查看商品
+													</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li> -->
 							</ul>
 						</li>
 
 						<li>
-							<a href="<?= Url::to(['nav/list']) ?>" class="dropdown-toggle">
+							<a href="#" class="dropdown-toggle">
 								<i class="icon-list"></i>
 								<span class="menu-text"> 导航管理 </span>
 
@@ -113,14 +157,14 @@ use yii\helpers\Url;
 
 							<ul class="submenu">
 								<li>
-									<a href="<?= Url::to(['nav/add']) ?>">
+									<a href="<?php echo Url::to(['nav/add']) ?>">
 										<i class="icon-double-angle-right"></i>
 										<i class="icon-plus"></i>
 										导航添加
 									</a>
 								</li>
 								<li>
-									<a href="<?= Url::to(['nav/list']) ?>">
+									<a href="<?php echo Url::to(['nav/list']) ?>">
 										<i class="icon-double-angle-right"></i>
 										<i class="icon-eye-open"></i>
 										导航列表
@@ -129,32 +173,32 @@ use yii\helpers\Url;
 							</ul>
 						</li>
 						<li>
-							<a href="<?= Url::to(['column/list']) ?>" class="dropdown-toggle">
+							<a href="#" class="dropdown-toggle">
 								<i class="icon-list"></i>
-								<span class="menu-text"> 分类管理 </span>
+								<span class="menu-text"> 栏目管理 </span>
 
 								<b class="arrow icon-angle-down"></b>
 							</a>
 
 							<ul class="submenu">
 								<li>
-									<a href="<?= Url::to(['column/add']) ?>">
+									<a href="<?php echo Url::to(['column/add']) ?>">
 										<i class="icon-double-angle-right"></i>
 										<i class="icon-plus"></i>
-										分类添加
+										栏目添加
 									</a>
 								</li>
 								<li>
-									<a href="<?= Url::to(['column/list']) ?>">
+									<a href="<?php echo Url::to(['column/list']) ?>">
 										<i class="icon-double-angle-right"></i>
 										<i class="icon-eye-open"></i>
-										分类列表
+										栏目列表
 									</a>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<a href="<?= Url::to(['gift/list']) ?>" class="dropdown-toggle">
+							<a href="#" class="dropdown-toggle">
 								<i class="icon-list"></i>
 								<span class="menu-text"> 礼物管理 </span>
 
@@ -163,21 +207,21 @@ use yii\helpers\Url;
 
 							<ul class="submenu">
 								<li>
-									<a href="<?= Url::to(['gift/add']) ?>">
+									<a href="<?php echo Url::to(['gift/add']) ?>">
 										<i class="icon-double-angle-right"></i>
 										<i class="icon-plus"></i>
 										礼物添加
 									</a>
 								</li>
 								<li>
-									<a href="<?= Url::to(['gift/list']) ?>">
+									<a href="<?php echo Url::to(['gift/list']) ?>">
 										<i class="icon-double-angle-right"></i>
 										<i class="icon-eye-open"></i>
 										礼物列表
 									</a>
 								</li>
 								<li>
-									<a href="<?= Url::to(['send/list']) ?>">
+									<a href="<?php echo Url::to(['send/list']) ?>">
 										<i class="icon-double-angle-right"></i>
 										<i class="icon-eye-open"></i>
 										礼物赠送记录
