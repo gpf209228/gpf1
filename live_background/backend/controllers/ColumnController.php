@@ -10,17 +10,15 @@ use yii\filters\AccessControl;
 class ColumnController extends Controller
 {
     public $enableCsrfValidation = false;
-	/*
-		导航添加
-	 */
+	/**
+     * 分类添加
+     * @return [type] [description]
+     */
 	public function actionAdd()
 	{
         $db=yii::$app->db;
 		if($data = Yii::$app->request->post()){
-//            print_r($_FILES);
-//            print_r($_POST);die;
 
-            ////
             if ((($_FILES["file"]["type"] == "image/gif") || ($_FILES["file"]["type"] == "image/jpeg") || ($_FILES["file"]["type"] == "image/pjpeg")) && ($_FILES["file"]["size"] < 200000))
             {
                 if ($_FILES["file"]["error"] ==0)
@@ -61,9 +59,10 @@ class ColumnController extends Controller
 		}
 	}
 
-	/*
-		导航列表
-	 */
+	/**
+     * 分类展示
+     * @return [type] [description]
+     */
 	public function actionList()
 	{
         if($data = Yii::$app->request->post()){
@@ -73,7 +72,6 @@ class ColumnController extends Controller
             $sql="select * from class";
             $sql=$db->createCommand($sql)->queryAll();
             $sql=$this->subtree($sql);
-//            print_r($sql);die;
             return $this->render('list',array('class'=>$sql));
         }
 	}
@@ -88,15 +86,14 @@ class ColumnController extends Controller
             }
             return $subs;
         }
-	/*
-		导航修改
-	 */
+	/**
+     * 分类修改
+     * @return [type] [description]
+     */
 	public function actionSave()
 	{
         if($data = Yii::$app->request->post()){
-//            print_r($_FILES);die;
 
-//        print_r($_POST);die;
             if(isset($_POST['class_id'])){
                 $db=yii::$app->db;
                     $sql="update class set class_name='$_POST[class_name]',class_p_id='$_POST[class_p_id]' where class_id='$_POST[class_id]'";
@@ -126,7 +123,6 @@ class ColumnController extends Controller
                 }
 
             }
-//            $this->redirect("?r=column/save&gift=$_POST[class_id]");
             $this->redirect('?r=column/list');
         }else{
             $db=yii::$app->db;
@@ -134,14 +130,14 @@ class ColumnController extends Controller
             $sqls=$db->createCommand($sqls)->queryAll();
             $sql="select * from class where class_id='$_GET[class_id]'";
             $sql=$db->createCommand($sql)->queryOne();
-//            print_r($sql);die;
             return $this->render('save',array('class'=>$sqls,"class_a"=>$sql));
         }
 	}
 
-	/*
-		导航删除
-	 */
+	/**
+     * 分类删除
+     * @return [type] [description]
+     */
 	public function actionDel()
 	{
         $db=yii::$app->db;
