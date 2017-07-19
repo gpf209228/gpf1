@@ -40,7 +40,7 @@
 						<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 文章标题 </label>
 
 						<div class="col-sm-9">
-							<div class="col-xs-12 col-sm-3">
+							<div class="col-xs-12 col-sm-15">
 								<input name="article_title" v-model="name" placeholder=" 文章标题 " class="col-xs-10 col-sm-12" type="text">
 							</div>
 						</div>
@@ -52,7 +52,7 @@
 						<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 文章作者 </label>
 
 						<div class="col-sm-9">
-							<div class="col-xs-12 col-sm-3">
+							<div class="col-xs-12 col-sm-15">
 								<input name="article_name" v-model="name" placeholder=" 文章作者 " class="col-xs-10 col-sm-12" type="text">
 							</div>
 						</div>
@@ -64,8 +64,20 @@
 						<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 文章内容 </label>
 
 						<div class="col-sm-9">
-							<div class="col-xs-12 col-sm-3">
-							
+							<div class="col-xs-12 col-sm-15">
+								<textarea name="article_content" id="myEditor"></textarea>
+							</div>
+						</div>
+					</div>
+
+					<div class="space-4"></div>
+
+					<div class="form-group">
+						<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 文章排序 </label>
+
+						<div class="col-sm-9">
+							<div class="col-xs-12 col-sm-15">
+								<input name="article_sort" v-model="name" placeholder=" 文章排序 " class="col-xs-10 col-sm-12" type="text">
 							</div>
 						</div>
 					</div>
@@ -85,17 +97,15 @@
 								重置
 							</button>
 						</div>
-					</div>
-
-					
-
-					
+					</div>	
 				</form>
-
-				
-
 				<!-- PAGE CONTENT ENDS -->
 			</div><!-- /.col -->
 		</div><!-- /.row -->
 	</div>
 </div>
+<script type="text/javascript" src="/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="/ueditor/ueditor.all.js"></script>
+<script type="text/javascript">
+    UE.getEditor('myEditor');
+</script>

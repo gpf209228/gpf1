@@ -56,9 +56,8 @@ class NavController extends Controller
 
 	public function actionSave_do(){
 		$navId = Yii::$app->request->post('nav_id');
-		$navName = Yii::$app->request->post('nav_name');
-		$navLink = Yii::$app->request->post('nav_link');
-		$navUpd = Yii::$app->db->createCommand()->update('nav', ['nav_name' => $navName, 'nav_link' => $navLink], "nav_id = $navId")->execute();
+		$data = Yii::$app->request->post();
+		$navUpd = Yii::$app->db->createCommand()->update('nav', $data, "nav_id = $navId")->execute();
 		if($navUpd){
 			echo "<script>alert('修改成功');location.href='?r=nav/list'</script>";
 		}else{
