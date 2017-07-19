@@ -1,0 +1,1 @@
+function toggleBox(e,o){$("#box"+e);0==o&&$.get("index.php?m=Msg&do=setMessageRead",{id:e},function(o){o&&$("#m-tit_"+e).removeClass()})}function delMessage(e){$.get("index.php?m=Msg&do=delMessage",{id:e},function(o){o&&($("#box"+e).hide(),window.location.reload())})}function closeBox(e){var o=$("#box"+e);o.removeClass(),$("#title_tit_"+e).removeClass().addClass("news-tit")}
