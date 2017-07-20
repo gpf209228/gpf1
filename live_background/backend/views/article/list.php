@@ -1,3 +1,7 @@
+<?php
+
+use yii\widgets\LinkPager;
+?>
 <div class="main-content">
 	<div class="breadcrumbs" id="breadcrumbs">
 		
@@ -81,7 +85,7 @@
 										<td class=" "><?= $v['article_id']?></td>
 										<td class=" "><?= $v['article_title']?></td>
 										<td class=" "><?= $v['article_name']?></td>
-										<td class=" "><?= $v['article_sort']?></td>
+										<td><span class="click" id="<?php echo $v['article_id']?>"><?= $v['article_sort']?></span></td>
 										<td class=" "><?= date("Y-m-d",$v['article_time'])?></td>
 										<td class=" ">
 											<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
@@ -97,11 +101,45 @@
 									<?php } ?>
 								</tbody>
 								</table>
-								<div class="row"><div class="col-sm-6"><div class="dataTables_info" id="sample-table-2_info">Showing 1 to 10 of 23 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_bootstrap"><ul class="pagination"><li class="prev disabled"><a href="#"><i class="icon-double-angle-left"></i></a></li><li class="active"><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li class="next"><a href="#"><i class="icon-double-angle-right"></i></a></li></ul></div></div></div></div>
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="dataTables_paginate paging_bootstrap">
+											<ul class="pagination">
+												<?= LinkPager::widget(['pagination' => $pages]); ?>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div><!-- /.col -->
 		</div><!-- /.row -->
 	</div><!-- /.page-content -->
-</div>
+</div><script src="/cat/js/jquery-2.0.3.min.js"></script>
+<script>
+	$(function(){  
+        $(document).on("click",".click",function(){  
+           var id=$(this).attr('id');//获取id  
+           // alert(id);
+            var sort=$(this).html();//获取html值  
+           // alert(sort)  
+        $(this).parent().html("<input type=\"text\" value="+sort+" class='one'>");//通过当前获取父节点的值  
+            $(".one").focus();//聚焦事件  
+            $(".one").blur(function(){//鼠标离开事件  
+                _this=$(this);  
+               var newSort=$(this).val();//获取新值  
+                $.post("?r=article/change",{id:id, newSort:newSort},function(msg){  
+                   // alert(msg)  
+                   if(msg==1){  
+                     _this.parent().html("<span class=\"click\" id="+id+">"+newSort+"</span>");  
+                   }else{  
+                      alert("失败");  
+                   }  
+            })  
+  
+            })  
+        })  
+    }) 
+</script>
