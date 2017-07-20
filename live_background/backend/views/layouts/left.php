@@ -56,7 +56,7 @@ use yii\helpers\Url;
 
 						<li class="">
 							<a href="#" class="dropdown-toggle">
-								<i class="icon-desktop"></i>
+								<i class="icon-list"></i>
 								<span class="menu-text"> 用户管理 </span>
 
 								<b class="arrow icon-angle-down"></b>
@@ -201,13 +201,6 @@ use yii\helpers\Url;
 										<i class="icon-double-angle-right"></i>
 										<i class="icon-eye-open"></i>
 										礼物列表
-									</a>
-								</li>
-								<li>
-									<a href="<?php echo Url::to(['send/list']) ?>">
-										<i class="icon-double-angle-right"></i>
-										<i class="icon-eye-open"></i>
-										礼物赠送记录
 									</a>
 								</li>
 							</ul>
