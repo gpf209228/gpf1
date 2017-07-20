@@ -5,6 +5,8 @@ use Yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+use app\models\Article;
+use yii\data\Pagination;
 
 class ArticleController extends Controller
 {
@@ -42,14 +44,22 @@ class ArticleController extends Controller
 	}
 
 	public function actionSave() {
-		if($data = Yii::$app->request->post()){
-
+		if($artId = Yii::$app->request->get('id')){
+			$artList = Yii::$app->db->createCommand('select * from article where article_id = :id')
+									->bindValue(':id', $artId)
+									->queryOne();
+			return $this->render('save',['artList' => $artList]);
 		}
 	}
 
 	public function actionSave_do() {
-		if($data = Yii::$app->request->post()){
-
+		$artId = Yii::$app->request->post('article_id');
+		$data = Yii::$app->request->post();
+		$navUpd = Yii::$app->db->createCommand()->update('article', $data, "article_id = $artId")->execute();
+		if($navUpd){
+			echo "<script>alert('修改成功');location.href='?r=article/list'</script>";
+		}else{
+			echo "<script>alert('修改失败');location.href='?r=article/list'</script>";
 		}
 	}
 
