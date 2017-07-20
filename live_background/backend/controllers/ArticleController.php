@@ -8,7 +8,7 @@ use yii\filters\AccessControl;
 use backend\models\Article;
 use yii\data\Pagination;
 
-class ArticleController extends Controller
+class ArticleController extends SumController
 {
 
 	public $enableCsrfValidation = false;

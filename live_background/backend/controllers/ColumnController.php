@@ -7,7 +7,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
-class ColumnController extends Controller
+class ColumnController extends SumController
 {
     public $enableCsrfValidation = false;
 	/**
