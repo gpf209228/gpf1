@@ -26,23 +26,16 @@ class UserController extends Controller
 	 */
 	public function actionPlain()
 	{
-		if($data = Yii::$app->request->post()){
-
-		}else{
-			return $this->render('plain');
-		}
+		$userList = Yii::$app->db->createCommand("select * from user")->queryAll();
+		return $this->render('plain',['userList' => $userList]);
 	}
-
 	/*
 		主播待审核列表
 	 */
 	public function actionWait()
 	{
-		if($data = Yii::$app->request->post()){
-
-		}else{
-			return $this->render('wait');
-		}
+		$userList = Yii::$app->db->createCommand("select * from user where anchor = 1")->queryAll();
+		return $this->render('wait',['userList' => $userList]);
 	}
 
 	/*
