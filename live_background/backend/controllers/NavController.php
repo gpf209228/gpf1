@@ -6,7 +6,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
-class NavController extends Controller
+class NavController extends SumController
 {
 	public $enableCsrfValidation = false;
 	/*

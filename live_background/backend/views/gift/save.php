@@ -34,14 +34,14 @@
             <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->
 
-                <form class="form-horizontal" role="form" method="post" action="?r=gift/save">
+                <form class="form-horizontal" role="form" method="post" action="?r=gift/save" enctype="multipart/form-data">
 
                     <div class="form-group">
                         <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 礼物名称 </label>
                         <input type="hidden" name="gift_id" value="<?php echo $gift['gift_id'] ?>"/>
                         <div class="col-sm-9">
                             <div class="col-xs-12 col-sm-3">
-                                <input id="form-field-1" v-model="name" name="gift_name" placeholder=" <?php echo $gift['gift_name'] ?> "  class="col-xs-10 col-sm-12" type="text">
+                                <input id="form-field-1" v-model="name" name="gift_name" value=" <?php echo $gift['gift_name'] ?> "  class="col-xs-10 col-sm-12" type="text">
                             </div>
                         </div>
                     </div><div class="form-group">
@@ -49,7 +49,17 @@
 
                         <div class="col-sm-9">
                             <div class="col-xs-12 col-sm-3">
-                                <input id="form-field-1" v-model="name" name="gift_money" placeholder="<?php echo $gift['gift_money'] ?>"  class="col-xs-10 col-sm-12" type="text">
+                                <input id="form-field-1" v-model="name" name="gift_money" value="<?php echo $gift['gift_money'] ?>"  class="col-xs-10 col-sm-12" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 礼物动图 </label>
+
+                        <div class="col-sm-9">
+                            <div class="col-xs-12 col-sm-3">
+                                <input type="file" name="file"/>
+                                <img src="<?php echo $gift['gift_path'] ?>" alt="加载失败" width="120" height="90"/>
                             </div>
                         </div>
                     </div>

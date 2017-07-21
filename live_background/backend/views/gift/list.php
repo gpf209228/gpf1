@@ -50,14 +50,23 @@
                                                 <span class="lbl"></span>
                                             </label>
                                         </th>
-                                        <th class="sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 170px;" aria-label="id: activate to sort column ascending">
+                                        <th class="sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 80px;" aria-label="id: activate to sort column ascending">
                                             id
+                                        </th><th class="sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 80px;" aria-label="id: activate to sort column ascending">
+                                            img
                                         </th>
                                         <th class="hidden-480 sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 126px;" aria-label="name: activate to sort column ascending">
                                             name
                                         </th>
-                                        <th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 174px;" aria-label="">
+                                        <th class="hidden-480 sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 126px;" aria-label="name: activate to sort column ascending">
+                                            price
                                         </th>
+                                        <th class="hidden-480 sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 126px;" aria-label="name: activate to sort column ascending">
+                                            operation
+                                        </th>
+<!--                                        <th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 174px;" aria-label="">-->
+<!--                                            -->
+<!--                                        </th>-->
                                     </tr>
                                     </thead>
 
@@ -72,7 +81,9 @@
                                                 </label>
                                             </td>
                                             <td class=" "><?php echo $val['gift_id'] ?></td>
+                                            <td class=" "><img src="<?php echo $val['gift_path'] ?>" alt="加载失败" height="30" width="20"/></td>
                                             <td class=" "><?php echo $val['gift_name'] ?></td>
+                                            <td class=" "><?php echo $val['gift_money'] ?></td>
                                             <td class=" ">
                                                 <div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
                                                     <a href="?r=gift/save&gift=<?php echo $val['gift_id'] ?>"><button class="green">

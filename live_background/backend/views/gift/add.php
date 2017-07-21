@@ -34,7 +34,7 @@
             <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->
 
-                <form class="form-horizontal" role="form" method="post" action="?r=gift/add">
+                <form class="form-horizontal" role="form" method="post" action="?r=gift/add" enctype="multipart/form-data">
 
                     <div class="form-group">
                         <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 礼物名称 </label>
@@ -54,6 +54,15 @@
                             </div>
                         </div>
                     </div>
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 礼物动图 </label>
+
+                        <div class="col-sm-9">
+                            <div class="col-xs-12 col-sm-3">
+                                <input type="file" name="file"/>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="space-4"></div>
 
@@ -61,7 +70,7 @@
                         <div class="col-md-offset-2 col-md-9">
                             <button class="btn btn-info" type="submit">
                                 <i class="icon-ok bigger-110"></i>
-                                创建
+                                添加
                             </button>
 
                             &nbsp; &nbsp; &nbsp;
