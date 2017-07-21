@@ -5,6 +5,8 @@ use Yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+use backend\models\User;
+use yii\data\Pagination;
 
 class UserController extends SumController
 {
@@ -23,11 +25,6 @@ class UserController extends SumController
 			return $this->render('admin',array('sql'=>$sql));
 		}
 	}
-//    function actionAa(){
-//        echo date('Y-m-d H-i-s',time());
-//
-//
-//    }
 
 
 	/*
@@ -36,10 +33,13 @@ class UserController extends SumController
 	public function actionPlain()
 	{
         $name=isset($_POST['user_name'])?$_POST['user_name']:"";
-		$userList = Yii::$app->db->createCommand("select * from user where user_name like '%$name%' limit 20")->queryAll();
-//        print_r($userList);die;
-		return $this->render('plain',['userList' => $userList,'user'=>$name]);
+        $data = User::find()->asArray();
+       	$pages = new Pagination(['totalCount' =>$data->count(), 'pageSize' => '6']);
+       	$userList = $data->offset($pages->offset)->where("user_name like '%$name%'")->limit($pages->limit)->all();
+		// $userList = Yii::$app->db->createCommand("select * from user where user_name like '%$name%' limit 20")->queryAll();
+		return $this->render('plain',['userList' => $userList,'user'=>$name, 'pages' => $pages]);
 	}
+
     function actionShenpi(){
 
         $id=$_GET['id'];

@@ -21,7 +21,6 @@ class ArticleController extends SumController
 		$data = Article::find()->asArray();
        	$pages = new Pagination(['totalCount' =>$data->count(), 'pageSize' => '1']);
        	$articleList = $data->offset($pages->offset)->limit($pages->limit)->all();
-		// $articleList = Yii::$app->db->createCommand("select article_id,article_title,article_name,article_sort,article_time from article")->queryAll();
 		return $this->render('list',['articleList' => $articleList, 'pages' => $pages]);
 	}
 	/**
