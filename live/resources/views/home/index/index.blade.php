@@ -6,10 +6,10 @@
 <!--[if gt IE 9]><!--> <html lang="zh-cmn-Hans"><!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>虎牙直播-中国领先的互动直播平台</title>
-    <base href="http://www.live.com/home/">
-    <meta name="Keywords" content="lol直播,英雄联盟直播,dota2直播,dnf直播,cf直播,游戏直播,赛事直播,YY直播,美女直播,户外直播,视频直播,虎牙TV,虎牙直播,EDG"/>
-    <meta name="Description" content="虎牙直播是中国领先的互动直播平台,可提供同时300万人在线高清观看、赛事直播与游戏直播，热门手游直播等。包含王者荣耀，球球大作战等热门手游直播，lol、dota2、dnf等热门游戏直播以及单机游戏、手游等游戏直播"/>
+    <title>飞豪直播-中国领先的互动直播平台</title>
+    <base href="http://www.lives.com/home/">
+    <meta name="Keywords" content="lol直播,英雄联盟直播,dota2直播,dnf直播,cf直播,游戏直播,赛事直播,YY直播,美女直播,户外直播,视频直播,飞豪TV,飞豪直播,EDG"/>
+    <meta name="Description" content="飞豪直播是中国领先的互动直播平台,可提供同时300万人在线高清观看、赛事直播与游戏直播，热门手游直播等。包含王者荣耀，球球大作战等热门手游直播，lol、dota2、dnf等热门游戏直播以及单机游戏、手游等游戏直播"/>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,8 +21,8 @@
     <meta property="wb:webmaster" content="c66c64f64a78003f" />
     <link rel='canonical' href='http://www.huya.com/'>
     <link type="text/css" rel="stylesheet" href="//a.dwstatic.com/huya/main/pkg/pages_modules_edf5626.css">
-<link type="text/css" rel="stylesheet" href="//a.dwstatic.com/huya/main/pkg/auto_combine_ad5a7_cd65127.css">
-<!--HEAD_END-->
+    <link type="text/css" rel="stylesheet" href="//a.dwstatic.com/huya/main/pkg/auto_combine_ad5a7_cd65127.css">
+    <!--HEAD_END-->
         <style type="text/css">
         .w-1000 .left-banner,.w-1000 .right-banner{
             background-image: url("http://livewebbs2.dwstatic.com/huya_1497075550_content.jpeg");
@@ -42,12 +42,12 @@
         <div class="duya-header" id="duya-header">
     <div class="duya-header-wrap clearfix">
         <div class="duya-header-bd clearfix">
-            <h1 id="duya-header-logo" title="虎牙直播-虎牙TV-中国领先的互动直播平台">
-                <a href="http://www.huya.com/" class="clickstat" eid="click/navi/logo" eid_desc="点击/导航/logo"><img src="http://a.dwstatic.com/huya/main/img/logo.png" alt="虎牙直播" width="120" height="36"></a>
+            <h1 id="duya-header-logo" title="飞豪直播-飞豪TV-中国领先的互动直播平台">
+                <a href="http://www.huya.com/" class="clickstat" eid="click/navi/logo" eid_desc="点击/导航/logo"><img src="http://a.dwstatic.com/huya/main/img/logo.png" alt="飞豪直播" width="120" height="36"></a>
             </h1>
             <div class="duya-header-nav">
                 <span class="hy-nav-link duya-header-on"><a href="http://www.huya.com/" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
-                <span class="hy-nav-link"><a href="http://www.live.com/live" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">直播</a></span>
+                <span class="hy-nav-link"><a href="http://www.lives.com/live" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">直播</a></span>
                 <div class="hy-nav-expand">
                     <div class="hy-nav-title nav-main" id="nav-main"><a href="http://www.huya.com/g">分类</a><i class="icon-arrow"></i></div>
                     <div class="nav-expand-list nav-expand-game">
@@ -78,14 +78,14 @@
                     </div>
                 </div>
                 <div class="hy-nav-right hy-nav-kaibo">
-                    <a class="hy-nav-title clickstat" href="http://www.live.com/per" eid="click/navi/kaibo" eid_desc="点击/导航/开播" target="_blank">
+                    <a class="hy-nav-title clickstat" href="http://www.lives.com/per" eid="click/navi/kaibo" eid_desc="点击/导航/开播" target="_blank">
                         <i class="hy-nav-icon hy-nav-video-icon"></i>
                         <span class="title">个人中心</span>
                     </a>
                     <div class="nav-expand-list nav-expand-kaibo">
                         <i class="arrow"></i>
                         <div class="kaibo-nav">
-                            <a target="_blank" href="http://www.live.com/per><i class="hy-nav-video-icon"></i><span>个人中心</span></a>
+                            <a target="_blank" href="http://www.lives.com/per><i class="hy-nav-video-icon"></i><span>个人中心</span></a>
                             <a target="_blank" href="#"><i class="hy-nav-home-icon"></i><span>公会入驻</span></a>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                         <div class="download-nav">
                             <a target="_blank" href="http://www.huya.com/download/"><i class="hy-nav-app-icon"></i><span>移动APP</span></a>
                             <a target="_blank" href="http://www.huya.com/download/#players_pc"><i class="hy-nav-play-icon"></i><span>主播工具</span></a>
-                            <!-- <a target="_blank" href="http://www.huya.com/download/#tv"><i class="hy-nav-tv-icon"></i><span>虎牙TV版</span></a> -->
+                            <!-- <a target="_blank" href="http://www.huya.com/download/#tv"><i class="hy-nav-tv-icon"></i><span>飞豪TV版</span></a> -->
                         </div>
                     </div>
                 </div>
@@ -252,9 +252,9 @@
     <div class="mod-index-wrap">
 
                 <div id="banner" class="J_g_resource" data-pos="home/beitou" data-rsc="1851" style="background-image: url('http://livewebbs2.dwstatic.com/huya_1497075550_content.jpeg');">
-                            <a class="left-banner clickstat" eid="click/push/beitou/left" eid_desc="点击/推荐/背投/左侧" href="http://www.huya.com/lpl" target="_blank"></a>
-                                        <a class="right-banner clickstat" eid="click/push/beitou/right" eid_desc="点击/推荐/背投/右侧" href="http://www.huya.com/lpl" target="_blank"></a>
-                    </div>
+                    <a class="left-banner clickstat" eid="click/push/beitou/left" eid_desc="点击/推荐/背投/左侧" href="http://www.huya.com/lpl" target="_blank"></a>
+                    <a class="right-banner clickstat" eid="click/push/beitou/right" eid_desc="点击/推荐/背投/右侧" href="http://www.huya.com/lpl" target="_blank"></a>
+                </div>
         
         <!-- S 主屏模块 -->
         <div class="mod-index-main" id="js-main">
@@ -267,37 +267,37 @@
         <ul class="item-nav clearfix">
                                         <li recommendSite="1" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/1","game_id":"2868","ayyuid":"378127928"}'>
                     <div class="item-pic">
-                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1499947214.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
+                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1499947214.jpg" alt="飞豪直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
                         <div class="highlight"><i class="arrow"></i></div>
                     </div>
                 </li>
                             <li recommendSite="2" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/2","game_id":"1964","ayyuid":"419434122"}'>
                     <div class="item-pic">
-                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1500025892.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
+                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1500025892.jpg" alt="飞豪直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
                         <div class="highlight"><i class="arrow"></i></div>
                     </div>
                 </li>
                             <li recommendSite="3" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/3","game_id":"1","ayyuid":"1346609715"}'>
                     <div class="item-pic">
-                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1497032142.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
+                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1497032142.jpg" alt="飞豪直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
                         <div class="highlight"><i class="arrow"></i></div>
                     </div>
                 </li>
                             <li recommendSite="4" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/4","game_id":"2174","ayyuid":"936870129"}'>
                     <div class="item-pic">
-                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1488365604.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
+                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1488365604.jpg" alt="飞豪直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
                         <div class="highlight"><i class="arrow"></i></div>
                     </div>
                 </li>
                             <li recommendSite="5" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/5","game_id":"2836","ayyuid":"1591391630"}'>
                     <div class="item-pic">
-                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1494302026.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
+                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1494302026.jpg" alt="飞豪直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
                         <div class="highlight"><i class="arrow"></i></div>
                     </div>
                 </li>
                             <li recommendSite="6" class="new-clickstat" report='{"eid":"click/position","position":"index/jdt/6","game_id":"393","ayyuid":"1273874542"}'>
                     <div class="item-pic">
-                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1498896903.jpg" alt="虎牙直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
+                        <img src="http://livewebbs2.dwstatic.com/home_recommend_live_web_1498896903.jpg" alt="飞豪直播" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_focus.jpg'">
                         <div class="highlight"><i class="arrow"></i></div>
                     </div>
                 </li>
@@ -318,12 +318,12 @@
                                 <li>
                     <a href="http://www.huya.com/9025806" target="_blank" class="new-clickstat" report='{"eid":"click/position","position":"index/remen/1-1","game_id":"9","ayyuid":"128803871"}'>
                         <div class="img-box">
-                            <img class="pic" src="http://screenshot.dwstatic.com/yysnapshot/17e293714b28d484f5790b911f97bf3134420255?imageview/4/0/w/136/h/76/blur/1" alt="关注7月18日虎牙车王热身赛的直播"  title="关注7月18日虎牙车王热身赛的直播">
+                            <img class="pic" src="http://screenshot.dwstatic.com/yysnapshot/17e293714b28d484f5790b911f97bf3134420255?imageview/4/0/w/136/h/76/blur/1" alt="关注7月18日飞豪车王热身赛的直播"  title="关注7月18日飞豪车王热身赛的直播">
                         </div>                       
                         <span class="game-type">QQ飞车</span>
                         <div class="item-mask"></div>
                         <i class="btn-link__hover_i"></i>
-                        <div class="game-classify-name">关注7月18日虎牙车王热身赛</div>
+                        <div class="game-classify-name">关注7月18日飞豪车王热身赛</div>
                     </a>
                 </li>
                                 <li>
@@ -554,37 +554,33 @@
             <!--S 推广 -->
             <div class="index-recommend-img">
                 <div class="wrap">
-                                                        <a class="link clickstat pic1" title="虎牙荣耀" href="http://hd.huya.com/201707activity/" target="_blank" eid="click/push/indexnews/picture1" eid_desc="点击/活动/首页新闻/图片1"><img src="http://livewebbs2.dwstatic.com/huya_1499690147_content.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'"  alt="虎牙荣耀"></a>
-                                                        <a class="link clickstat pic2" title="谁谁车王" href="http://blog.huya.com/news/4154" target="_blank" eid="click/push/indexnews/picture2" eid_desc="点击/活动/首页新闻/图片2"><img src="http://livewebbs2.dwstatic.com/huya_1500027734_content.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'"  alt="谁谁车王"></a>
-                                                        <a class="link clickstat pic3" title="《决斗之城》主播招募" href="http://blog.huya.com/news/3969" target="_blank" eid="click/push/indexnews/picture3" eid_desc="点击/活动/首页新闻/图片3"><img src="http://livewebbs2.dwstatic.com/huya_1499343286_content.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'"  alt="《决斗之城》主播招募"></a>
-                                                        <a class="link clickstat pic3" title="隐藏的歌后" href="http://blog.huya.com/news/4138" target="_blank" eid="click/push/indexnews/picture4" eid_desc="点击/活动/首页新闻/图片4"><img src="http://livewebbs2.dwstatic.com/huya_1499334559_content.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'"  alt="隐藏的歌后"></a>
-                                                        <a class="link clickstat pic3" title="虎牙CS:GO主播最强官签令出炉" href="http://blog.huya.com/news/4158" target="_blank" eid="click/push/indexnews/picture5" eid_desc="点击/活动/首页新闻/图片5"><img src="http://livewebbs2.dwstatic.com/huya_1499429824_content.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'"  alt="虎牙CS:GO主播最强官签令出炉"></a>
-                                </div>         
+                    <a class="link clickstat pic1" title="飞豪荣耀" href="http://hd.huya.com/201707activity/" target="_blank" eid="click/push/indexnews/picture1" eid_desc="点击/活动/首页新闻/图片1"><img src="http://livewebbs2.dwstatic.com/huya_1499690147_content.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'"  alt="飞豪荣耀"></a>
+                    <a class="link clickstat pic2" title="谁谁车王" href="http://blog.huya.com/news/4154" target="_blank" eid="click/push/indexnews/picture2" eid_desc="点击/活动/首页新闻/图片2"><img src="http://livewebbs2.dwstatic.com/huya_1500027734_content.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'"  alt="谁谁车王"></a>
+                    <a class="link clickstat pic3" title="《决斗之城》主播招募" href="http://blog.huya.com/news/3969" target="_blank" eid="click/push/indexnews/picture3" eid_desc="点击/活动/首页新闻/图片3"><img src="http://livewebbs2.dwstatic.com/huya_1499343286_content.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'"  alt="《决斗之城》主播招募"></a>
+                    <a class="link clickstat pic3" title="隐藏的歌后" href="http://blog.huya.com/news/4138" target="_blank" eid="click/push/indexnews/picture4" eid_desc="点击/活动/首页新闻/图片4"><img src="http://livewebbs2.dwstatic.com/huya_1499334559_content.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'"  alt="隐藏的歌后"></a>
+                    <a class="link clickstat pic3" title="飞豪CS:GO主播最强官签令出炉" href="http://blog.huya.com/news/4158" target="_blank" eid="click/push/indexnews/picture5" eid_desc="点击/活动/首页新闻/图片5"><img src="http://livewebbs2.dwstatic.com/huya_1499429824_content.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'"  alt="飞豪CS:GO主播最强官签令出炉"></a>
+                </div>         
             </div>
             <!--E 推广 -->
             <!--S 新闻 -->
             <div class="news-box">
                   
-                    <h2 class="news-title ellipsis"><a target="_blank" class="J_g_resource clickstat" data-pos="index/news/tit" data-rsc="280" eid="click/push/indexnews/topnews" eid_desc="点击/活动/首页新闻/头条" href="http://blog.huya.com/policy/116" title="虎牙平台主播和公会准则">虎牙平台主播和公会准则</a></h2>
+                    <h2 class="news-title ellipsis"><a target="_blank" class="J_g_resource clickstat" data-pos="index/news/tit" data-rsc="280" eid="click/push/indexnews/topnews" eid_desc="点击/活动/首页新闻/头条" href="http://blog.huya.com/policy/116" title="飞豪平台主播和公会准则">飞豪平台主播和公会准则</a></h2>
                  
                 <div class="news-main">
                       
                     <ul class="news-list">
-                                                                                                                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4173" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/0" data-rsc="4173" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1" title="虎牙直播7.10-7.16一周赛事节目推荐">虎牙直播7.10-7.16一周赛事节目推荐</a><span class="news-time">07/12</span></li>
-                                                                                                <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/policy">政策</a></em><a target="_blank" href="http://blog.huya.com/policy/116" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/1" data-rsc="116" eid="click/push/indexnews/words2" eid_desc="点击/推荐/首页新闻/文字新闻2" title="虎牙主播和公会准则（直播必看）">虎牙主播和公会准则（直播必看）</a><span class="news-time">08/28</span></li>
-                                                                                                <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4193" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/2" data-rsc="4193" eid="click/push/indexnews/words3" eid_desc="点击/推荐/首页新闻/文字新闻3" title="最后的角斗！球球总决赛！">最后的角斗！球球总决赛！</a><span class="news-time">07/14</span></li>
-                                                                                                <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4191" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/3" data-rsc="4191" eid="click/push/indexnews/words4" eid_desc="点击/推荐/首页新闻/文字新闻4" title="BestKiller大战狼人杀7.15跨界来袭">BestKiller大战狼人杀7.15跨界来袭</a><span class="news-time">07/14</span></li>
-                                                                                                <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4189" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/4" data-rsc="4189" eid="click/push/indexnews/words5" eid_desc="点击/推荐/首页新闻/文字新闻5" title="御宅|二次元月元气coser带你逛漫展">御宅|二次元月元气coser带你逛漫展</a><span class="news-time">07/14</span></li>
-                                                                                                <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4188" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/5" data-rsc="4188" eid="click/push/indexnews/words6" eid_desc="点击/推荐/首页新闻/文字新闻6" title="《英雄枪战》ESG精英赛战报！">《英雄枪战》ESG精英赛战报！</a><span class="news-time">07/14</span></li>
-                                                                                                <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4186" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/6" data-rsc="4186" eid="click/push/indexnews/words7" eid_desc="点击/推荐/首页新闻/文字新闻7" title="《新QQ三国》十周年见面会相聚广州">《新QQ三国》十周年见面会相聚广州</a><span class="news-time">07/14</span></li>
-                                            </ul>                    
+                    @foreach($re as $k)
+                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4173" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/0" data-rsc="4173" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1" title="{{$k->article_title}}">{{$k->article_title}}</a><span class="news-time">07/12</span></li>
+                    @endforeach
+                    </ul>                    
                             
                 </div>
-                                <div class="hotTag">
-                                            <a class="link clickstat J_g_resource" data-pos="index/news/tag/0" data-rsc="292" target="_blank" href="http://www.cac.gov.cn/2017-07/12/m_1121305080.htm" title="网信办开展互联网直播企业备案工作" eid="click/push/indexnews/wordtab1" eid_desc="点击/活动/首页新闻/文字标签1">网信办开展互联网直播企业备案工作</a>
-                                            <a class="link clickstat J_g_resource" data-pos="index/news/tag/1" data-rsc="284" target="_blank" href="http://blog.huya.com/news/4175" title="暑期开黑派对" eid="click/push/indexnews/wordtab2" eid_desc="点击/活动/首页新闻/文字标签2">暑期开黑派对</a>
-                                            <a class="link clickstat J_g_resource" data-pos="index/news/tag/2" data-rsc="293" target="_blank" href="http://hd.huya.com/HMAsign/pc.html" title="HMA" eid="click/push/indexnews/wordtab3" eid_desc="点击/活动/首页新闻/文字标签3">HMA</a>
-                                            <a class="link clickstat J_g_resource" data-pos="index/news/tag/3" data-rsc="289" target="_blank" href="http://blog.huya.com/news/4138" title="隐藏的歌后" eid="click/push/indexnews/wordtab4" eid_desc="点击/活动/首页新闻/文字标签4">隐藏的歌后</a>
+                <div class="hotTag">
+                    <a class="link clickstat J_g_resource" data-pos="index/news/tag/0" data-rsc="292" target="_blank" href="http://www.cac.gov.cn/2017-07/12/m_1121305080.htm" title="网信办开展互联网直播企业备案工作" eid="click/push/indexnews/wordtab1" eid_desc="点击/活动/首页新闻/文字标签1">网信办开展互联网直播企业备案工作</a>
+                    <a class="link clickstat J_g_resource" data-pos="index/news/tag/1" data-rsc="284" target="_blank" href="http://blog.huya.com/news/4175" title="暑期开黑派对" eid="click/push/indexnews/wordtab2" eid_desc="点击/活动/首页新闻/文字标签2">暑期开黑派对</a>
+                    <a class="link clickstat J_g_resource" data-pos="index/news/tag/2" data-rsc="293" target="_blank" href="http://hd.huya.com/HMAsign/pc.html" title="HMA" eid="click/push/indexnews/wordtab3" eid_desc="点击/活动/首页新闻/文字标签3">HMA</a>
+                    <a class="link clickstat J_g_resource" data-pos="index/news/tag/3" data-rsc="289" target="_blank" href="http://blog.huya.com/news/4138" title="隐藏的歌后" eid="click/push/indexnews/wordtab4" eid_desc="点击/活动/首页新闻/文字标签4">隐藏的歌后</a>
                         
                 </div>
                    
@@ -669,11 +665,11 @@
                         <p class="preview-text">
                             <span class="preview-time">
                                 18日14:00                            </span>
-                            <a class="preview-link clickstat"  >虎牙谁是车王热身赛</a>
+                            <a class="preview-link clickstat"  >飞豪谁是车王热身赛</a>
                         </p>
                         <div class="preview-pic-box clearfix">
                             <a class="preview-pic-link clickstat" >
-                                <img data-original="http://huyaimg.dwstatic.com/cdnimage/upcoming/up_14997452704787_pic.jpg" src="http://a.dwstatic.com/huya/main/img/act_default_bg.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'" alt="虎牙谁是车王热身赛预告">
+                                <img data-original="http://huyaimg.dwstatic.com/cdnimage/upcoming/up_14997452704787_pic.jpg" src="http://a.dwstatic.com/huya/main/img/act_default_bg.jpg" onerror="this.onerror='';this.src='http://a.dwstatic.com/huya/main/img/act_default_bg.jpg'" alt="飞豪谁是车王热身赛预告">
                             </a>
                             <a class="preview-btn clickstat"  data-event-id="2420"   eid="click/program/book" eid_desc="点击/节目/预约" title="点击预订"  >
                                 <span class="preview-btn-icon"></span>
@@ -702,7 +698,7 @@
                             </a>
                         </div>
                     </div>
-                                        <textarea class="preview-digest-textarea">CFM、CF线上赛开战，更多精彩锁定虎牙直播</textarea>
+                                        <textarea class="preview-digest-textarea">CFM、CF线上赛开战，更多精彩锁定飞豪直播</textarea>
                                     </li>
                    
             </ul>
@@ -907,8 +903,8 @@
                                                     <i class="live-flag"><span class="live-icon"></span>直播</i>
                                                 <div class="text">
                             <h3 class="star-name">小宇</h3>
-                            <div class="star-info" title="热游直播代言人，虎牙单机COS直播爱好者。">
-                                热游直播代言人，虎牙单机COS直播爱好者。                            </div>
+                            <div class="star-info" title="热游直播代言人，飞豪单机COS直播爱好者。">
+                                热游直播代言人，飞豪单机COS直播爱好者。                            </div>
                         </div>
                     </a>
                 </li>   
@@ -998,8 +994,8 @@
                                                     <i class="live-flag"><span class="live-icon"></span>直播</i>
                                                 <div class="text">
                             <h3 class="star-name">七彩</h3>
-                            <div class="star-info" title="虎牙剑灵第一人气主播，黑风魔女世界首杀带领者。">
-                                虎牙剑灵第一人气主播，黑风魔女世界首杀带领者。                            </div>
+                            <div class="star-info" title="飞豪剑灵第一人气主播，黑风魔女世界首杀带领者。">
+                                飞豪剑灵第一人气主播，黑风魔女世界首杀带领者。                            </div>
                         </div>
                     </a>
                 </li>   
@@ -1623,7 +1619,7 @@
         <em class="tag tag-recommend">白金推荐</em>        <div class="item-mask"></div>
         <i class="btn-link__hover_i"></i>
             </a>
-    <a href="http://www.huya.com/00905802" class="title new-clickstat"report='{"eid":"click/position","position":"index/column/1663/1","game_id":"1663","ayyuid":"895332955"}' title="虎牙一股饿势力" target="_blank">虎牙一股饿势力</a>
+    <a href="http://www.huya.com/00905802" class="title new-clickstat"report='{"eid":"click/position","position":"index/column/1663/1","game_id":"1663","ayyuid":"895332955"}' title="飞豪一股饿势力" target="_blank">飞豪一股饿势力</a>
     <span class="txt">
         <span class="avatar fl">
             <img data-original="http://huyaimg.dwstatic.com/avatar/1044/84/7c774e7a3022fb731a24ddff9b3a60_180_135.jpg" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_profile.jpg" alt="AzZ丶骚俊" title="AzZ丶骚俊">
@@ -1858,15 +1854,15 @@
 
                                                                         <li class="game-live-item">
         <a href="http://www.huya.com/matongc" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"index/column/100002/4","game_id":"1732","ayyuid":"1048450049"}'>
-        <img class="pic" data-original="http://screenshot.dwstatic.com/yysnapshot/74a94f08a846bf8d2089af62b6ba2629064000b7?imageview/4/0/w/338/h/190/blur/1" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_live.jpg" alt="虎牙马桶c的直播" title="虎牙马桶c的直播">
+        <img class="pic" data-original="http://screenshot.dwstatic.com/yysnapshot/74a94f08a846bf8d2089af62b6ba2629064000b7?imageview/4/0/w/338/h/190/blur/1" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_live.jpg" alt="飞豪马桶c的直播" title="飞豪马桶c的直播">
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
         <i class="btn-link__hover_i"></i>
         <em class="tag tag-blue">蓝光</em>    </a>
     <a href="http://www.huya.com/matongc" class="title new-clickstat"report='{"eid":"click/position","position":"index/column/100002/4","game_id":"1732","ayyuid":"1048450049"}' title="正在直播：马桶c的超级好玩地图之旅" target="_blank">正在直播：马桶c的超级好玩地图之旅</a>
     <span class="txt">
         <span class="avatar fl">
-            <img data-original="http://huyaimg.dwstatic.com/avatar/1053/75/39da13f138dd3c64e58f98582f2da1_180_135.jpg" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_profile.jpg" alt="虎牙马桶c" title="虎牙马桶c">
-            <i class="nick" title="虎牙马桶c">虎牙马桶c</i>
+            <img data-original="http://huyaimg.dwstatic.com/avatar/1053/75/39da13f138dd3c64e58f98582f2da1_180_135.jpg" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_profile.jpg" alt="飞豪马桶c" title="飞豪马桶c">
+            <i class="nick" title="飞豪马桶c">飞豪马桶c</i>
         </span>
                 <span class="num"><i class="num-icon"></i><i class="js-num">7.0万</i></span>
     </span>
@@ -2170,7 +2166,7 @@
             <div class="mod-actlist__bd">
                 <ul class="clearfix">
                         
-                                                            <li><a class="clickstat J_g_resource" data-pos="index/act/0" data-rsc="289" href="http://hd.huya.com/201707activity/" target="_blank" title="虎牙荣耀" rel="nofollow" eid="click/home/event/event1" eid_desc="点击/首页/官方活动/官方活动1"><img data-original="http://huyaimg.dwstatic.com/cdnimage/actprop/phpqY8Lr21499690380.jpg" src="http://a.dwstatic.com/huya/main/img/act_default_bg.jpg" alt="虎牙荣耀"/></a></li>
+                                                            <li><a class="clickstat J_g_resource" data-pos="index/act/0" data-rsc="289" href="http://hd.huya.com/201707activity/" target="_blank" title="飞豪荣耀" rel="nofollow" eid="click/home/event/event1" eid_desc="点击/首页/官方活动/官方活动1"><img data-original="http://huyaimg.dwstatic.com/cdnimage/actprop/phpqY8Lr21499690380.jpg" src="http://a.dwstatic.com/huya/main/img/act_default_bg.jpg" alt="飞豪荣耀"/></a></li>
                                                             <li><a class="clickstat J_g_resource" data-pos="index/act/1" data-rsc="288" href="http://hd.huya.com/HMAsign/pc.html" target="_blank" title="HMA2017夏季赛" rel="nofollow" eid="click/home/event/event2" eid_desc="点击/首页/官方活动/官方活动2"><img data-original="http://huyaimg.dwstatic.com/cdnimage/actprop/phpuBrsMw1499684599.jpg" src="http://a.dwstatic.com/huya/main/img/act_default_bg.jpg" alt="HMA2017夏季赛"/></a></li>
                                                             <li><a class="clickstat J_g_resource" data-pos="index/act/2" data-rsc="287" href="http://blog.huya.com/news/4153" target="_blank" title="KPL总决赛" rel="nofollow" eid="click/home/event/event3" eid_desc="点击/首页/官方活动/官方活动3"><img data-original="http://huyaimg.dwstatic.com/cdnimage/actprop/phpWQmMbs1499435594.jpg" src="http://a.dwstatic.com/huya/main/img/act_default_bg.jpg" alt="KPL总决赛"/></a></li>
                                                             <li><a class="clickstat J_g_resource" data-pos="index/act/3" data-rsc="290" href="http://www.huya.com/g/2793#tag451" target="_blank" title="绝地求生赏金赛" rel="nofollow" eid="click/home/event/event4" eid_desc="点击/首页/官方活动/官方活动4"><img data-original="http://huyaimg.dwstatic.com/cdnimage/actprop/php7vgic91499742938.jpg" src="http://a.dwstatic.com/huya/main/img/act_default_bg.jpg" alt="绝地求生赏金赛"/></a></li>
@@ -2285,7 +2281,7 @@ require.resourceMap({"res":{"h5player":{"url":"//a.dwstatic.com/huya/main/module
     document.write(function(obj){
 var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};
 with(obj||{}){
-__p+='<div class="huya-footer">\r\n    <div class="huya-footer__hd">\r\n        <dl class="huya-footer_friend">\r\n            <dt>友情链接</dt>\r\n            <dd><a href="http://www.duowan.com/" target="_blank">多玩游戏</a></dd>\r\n            <dd><a href="http://wan.yy.com/" target="_blank">YY游戏</a></dd>\r\n            <dd><a href="http://games.qq.com/" target="_blank">腾讯游戏频道</a></dd>\r\n            <dd><a href="http://www.pcgames.com.cn/" target="_blank">太平洋游戏</a></dd>\r\n            <dd><a href="http://www.ooqiu.com/" target="_blank">全球电竞网</a></dd>\r\n            <dd><a href="http://games.ifeng.com/esports/" target="_blank">凤凰游戏电竞</a></dd>\r\n            <dd><a href="http://www.aipai.com/" target="_blank">爱拍</a></dd>\r\n            <dd><a href="http://www.56.com/game" target="_blank">搜狐56视频</a></dd>\r\n            <dd><a href="http://games.iqiyi.com/" target="_blank">爱奇艺游戏</a></dd>\r\n            <dd><a href="http://video.duowan.com/" target="_blank">多玩视频</a></dd>\r\n            <dd><a href="http://www.hiyd.com/" target="_blank">Hi运动健身</a></dd>\r\n            <dd><a href="http://www.yy.com" target="_blank">视频直播</a></dd>\r\n        </dl>\r\n        <dl class="huya-footer_help">\r\n            <dt>主播帮助</dt>\r\n            <dd><a href="http://www.huya.com/e/zhubo" target="_blank">新人主播指引</a></dd>\r\n            <dd><a href="http://www.huya.com/download/#players_pc" target="_blank">开播工具下载</a></dd>\r\n            <dd><a href="http://help.huya.com/276" target="_blank">开播教程引导</a></dd>\r\n        </dl>\r\n        <div class="huya-footer_prod">\r\n            <h2>虎牙产品下载</h2>\r\n            <div class="huya-app_qrcode">\r\n                <div class="app_qrcode_img"></div>  \r\n                <p>扫描下载虎牙APP</p>\r\n            </div>\r\n            <ul class="huya-footer_prod_list">\r\n                <li><i class="huya-footer_iphone"></i><a href="http://www.huya.com/download/#iphone" target="_blank">iPhone版</a></li>\r\n                <li><i class="huya-footer_ipad"></i><a href="http://www.huya.com/download/#ipad" target="_blank">iPad版</a></li>\r\n                <li><i class="huya-footer_andriod"></i><a href="http://www.huya.com/download/#android" target="_blank">Andriod版</a></li>\r\n                <li><i class="huya-footer_pad"></i><a href="http://www.huya.com/download/#pad" target="_blank">Andriod Pad</a></li>\r\n                <!-- <li><i class="huya-footer_tv"></i><a href="http://www.huya.com/download/#tv" target="_blank">TV版</a></li> -->\r\n                <li><i class="huya-footer_pc"></i><a href="http://www.huya.com/download/#pc" target="_blank">PC版</a></li>\r\n                <li><i class="huya-footer_wp"></i><a href="http://www.huya.com/download/#wp" target="_blank">Win10版/WP版</a></li>\r\n            </ul>\r\n        </div>\r\n        <div class="huya-footer_other">\r\n            <h2>关注我们</h2>\r\n            <div class="huya-pub_number">\r\n                <div class="pub_number_img"></div>  \r\n                <p>扫描关注微信公众号</p>\r\n            </div>\r\n            <ul class="footer_other_list">\r\n                <li><i class="huya-footer_sina"></i><a href="http://weibo.com/90dwyy" target="_blank">虎牙官方微博</a></li>\r\n                <li><i class="huya-footer_qieba"></i><a href="http://tieba.baidu.com/f?ie=utf-8&kw=%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD&fr=search" target="_blank">贴吧交流</a></li>\r\n                <li><a target="_blank" href="http://blog.huya.com/index.php?m=Announcement&do=show&type=notice&id=67">不良信息投诉与举报</a></li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n    <div class="huya-footer__bd">\r\n        <div class="huya-footer__nav">\r\n            <p>\r\n                <a target="_blank" href="http://www.huya.com/zt/usc/#about" class="clickstat" eid="click/home/yejiao/guanyu" eid_desc="点击/首页/页脚/关于虎牙">关于虎牙</a>|\r\n                <a target="_blank" href="http://hr.huya.com/" class="clickstat" eid="click/home/yejiao/joinus" eid_desc="点击/首页/页脚/加入我们">加入我们</a>|   \r\n                <a target="_blank" href="http://www.huya.com/zt/usc/#contact" class="clickstat" eid="click/home/yejiao/lianxi" eid_desc="点击/首页/页脚/合作联系">合作联系</a>|\r\n                <a target="_blank" href="http://www.huya.com/zt/usc/#sites" class="clickstat" eid="click/home/yejiao/youlian" eid_desc="点击/首页/页脚/友链">友情链接</a>|\r\n                <a target="_blank" href="http://www.huanju.cn/s/contact.html">广告热线：020-82120508</a>|\r\n                <a target="_blank" href="http://gm.duowan.com/user/center/centerOpen.do?product=HUYA&source=YY" class="clickstat" eid="click/home/yejiao/kefu" eid_desc="点击/首页/页脚/客服">在线客服</a>|\r\n                <a target="_blank" href="http://www.huanju.cn/1207/m_205349693256.html">隐私权保护政策</a>|\r\n                <a target="_blank" href="http://www.huanju.cn/1207/m_205353486825.html">版权保护投诉指引</a>\r\n            </p>\r\n            <p>\r\n                <span>增值电信业务经营许可证</span>\r\n                <a target="_blank" href="http://assets.dwstatic.com/common/docs/B2-20050785.jpg">粤B2-20050785</a>\r\n                <a target="_blank" href="http://assets.dwstatic.com/common/docs/B2-20120129.jpg">B2-20120129</a>|\r\n                <a target="_blank" href="http://a.dwstatic.com/huya/main/img/huya_wlwh_xkz.png">粤网文[2015]1712-302号</a>\r\n            </p>\r\n            <p>\r\n                <a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备16120983号-1</a>|\r\n                <span><img src="http://yyweb.yystatic.com/pc/images/company/j.gif" alt="">粤公网安备44011302000242号 </span>|\r\n                <a target="_blank" href="http://assets.dwstatic.com/common/docs/4401060100548.jpg">穗公网监备案证第4401060100548号</a>|\r\n                <a target="_blank" href="http://www.gdca.gov.cn/">广东省通信管理局</a>|\r\n                <a target="_blank" href="http://a.dwstatic.com/huya/main/img/huya_wl_xkz.png">网络出版服务许可证</a>|\r\n                <a target="_blank" href="http://a.dwstatic.com/huya/main/img/huya_jm2_xkz.jpg">节目制作经营许可证</a>\r\n            </p>\r\n        </div>\r\n        <div class="huya-footer__copyright">\r\n            <p>\r\n                <span>广州虎牙信息科技有限公司</span>\r\n                <span>&nbsp;版权所有&nbsp;©&nbsp;2016-2019&nbsp;</span>\r\n                <a target="_blank" href="http://www.huya.com/">huya.com</a>\r\n                <a target="_blank" href="http://jb.ccm.gov.cn/" class="clickstat" eid="click/home/yejiao/jubao" eid_desc="点击/首页/页脚/举报">12318全国文化市场举报网站</a>\r\n                <a target="_blank" href="http://www.12377.cn/" class="clickstat" eid="click/home/yejiao/jubao2" eid_desc="点击/首页/页脚/举报2">中国互联网不良信息举报中心</a>\r\n                <span>客服&举报电话：020-82120010</span>\r\n            </p>\r\n        </div>\r\n        <div class="huya-footer__hy-logo">\r\n            <img src="http://a.dwstatic.com/huya/main/img/hy-logo.png" width="322" height="46"/>\r\n            <a target="_blank" id="_pingansec_bottomimagesmall_brand" href="http://si.trustutn.org/info?sn=950170109026610628628&certType=1"><img src="http://a.dwstatic.com/huya/main/img/brand_bottom_small.jpg"/></a>\r\n        </div>\r\n    </div>\r\n</div>\r\n';
+__p+='<div class="huya-footer">\r\n    <div class="huya-footer__hd">\r\n        <dl class="huya-footer_friend">\r\n            <dt>友情链接</dt>\r\n            <dd><a href="http://www.duowan.com/" target="_blank">多玩游戏</a></dd>\r\n            <dd><a href="http://wan.yy.com/" target="_blank">YY游戏</a></dd>\r\n            <dd><a href="http://games.qq.com/" target="_blank">腾讯游戏频道</a></dd>\r\n            <dd><a href="http://www.pcgames.com.cn/" target="_blank">太平洋游戏</a></dd>\r\n            <dd><a href="http://www.ooqiu.com/" target="_blank">全球电竞网</a></dd>\r\n            <dd><a href="http://games.ifeng.com/esports/" target="_blank">凤凰游戏电竞</a></dd>\r\n            <dd><a href="http://www.aipai.com/" target="_blank">爱拍</a></dd>\r\n            <dd><a href="http://www.56.com/game" target="_blank">搜狐56视频</a></dd>\r\n            <dd><a href="http://games.iqiyi.com/" target="_blank">爱奇艺游戏</a></dd>\r\n            <dd><a href="http://video.duowan.com/" target="_blank">多玩视频</a></dd>\r\n            <dd><a href="http://www.hiyd.com/" target="_blank">Hi运动健身</a></dd>\r\n            <dd><a href="http://www.yy.com" target="_blank">视频直播</a></dd>\r\n        </dl>\r\n        <dl class="huya-footer_help">\r\n            <dt>主播帮助</dt>\r\n            <dd><a href="http://www.huya.com/e/zhubo" target="_blank">新人主播指引</a></dd>\r\n            <dd><a href="http://www.huya.com/download/#players_pc" target="_blank">开播工具下载</a></dd>\r\n            <dd><a href="http://help.huya.com/276" target="_blank">开播教程引导</a></dd>\r\n        </dl>\r\n        <div class="huya-footer_prod">\r\n            <h2>飞豪产品下载</h2>\r\n            <div class="huya-app_qrcode">\r\n                <div class="app_qrcode_img"></div>  \r\n                <p>扫描下载飞豪APP</p>\r\n            </div>\r\n            <ul class="huya-footer_prod_list">\r\n                <li><i class="huya-footer_iphone"></i><a href="http://www.huya.com/download/#iphone" target="_blank">iPhone版</a></li>\r\n                <li><i class="huya-footer_ipad"></i><a href="http://www.huya.com/download/#ipad" target="_blank">iPad版</a></li>\r\n                <li><i class="huya-footer_andriod"></i><a href="http://www.huya.com/download/#android" target="_blank">Andriod版</a></li>\r\n                <li><i class="huya-footer_pad"></i><a href="http://www.huya.com/download/#pad" target="_blank">Andriod Pad</a></li>\r\n                <!-- <li><i class="huya-footer_tv"></i><a href="http://www.huya.com/download/#tv" target="_blank">TV版</a></li> -->\r\n                <li><i class="huya-footer_pc"></i><a href="http://www.huya.com/download/#pc" target="_blank">PC版</a></li>\r\n                <li><i class="huya-footer_wp"></i><a href="http://www.huya.com/download/#wp" target="_blank">Win10版/WP版</a></li>\r\n            </ul>\r\n        </div>\r\n        <div class="huya-footer_other">\r\n            <h2>关注我们</h2>\r\n            <div class="huya-pub_number">\r\n                <div class="pub_number_img"></div>  \r\n                <p>扫描关注微信公众号</p>\r\n            </div>\r\n            <ul class="footer_other_list">\r\n                <li><i class="huya-footer_sina"></i><a href="http://weibo.com/90dwyy" target="_blank">飞豪官方微博</a></li>\r\n                <li><i class="huya-footer_qieba"></i><a href="http://tieba.baidu.com/f?ie=utf-8&kw=%E8%99%8E%E7%89%99%E7%9B%B4%E6%92%AD&fr=search" target="_blank">贴吧交流</a></li>\r\n                <li><a target="_blank" href="http://blog.huya.com/index.php?m=Announcement&do=show&type=notice&id=67">不良信息投诉与举报</a></li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n    <div class="huya-footer__bd">\r\n        <div class="huya-footer__nav">\r\n            <p>\r\n                <a target="_blank" href="http://www.huya.com/zt/usc/#about" class="clickstat" eid="click/home/yejiao/guanyu" eid_desc="点击/首页/页脚/关于飞豪">关于飞豪</a>|\r\n                <a target="_blank" href="http://hr.huya.com/" class="clickstat" eid="click/home/yejiao/joinus" eid_desc="点击/首页/页脚/加入我们">加入我们</a>|   \r\n                <a target="_blank" href="http://www.huya.com/zt/usc/#contact" class="clickstat" eid="click/home/yejiao/lianxi" eid_desc="点击/首页/页脚/合作联系">合作联系</a>|\r\n                <a target="_blank" href="http://www.huya.com/zt/usc/#sites" class="clickstat" eid="click/home/yejiao/youlian" eid_desc="点击/首页/页脚/友链">友情链接</a>|\r\n                <a target="_blank" href="http://www.huanju.cn/s/contact.html">广告热线：020-82120508</a>|\r\n                <a target="_blank" href="http://gm.duowan.com/user/center/centerOpen.do?product=HUYA&source=YY" class="clickstat" eid="click/home/yejiao/kefu" eid_desc="点击/首页/页脚/客服">在线客服</a>|\r\n                <a target="_blank" href="http://www.huanju.cn/1207/m_205349693256.html">隐私权保护政策</a>|\r\n                <a target="_blank" href="http://www.huanju.cn/1207/m_205353486825.html">版权保护投诉指引</a>\r\n            </p>\r\n            <p>\r\n                <span>增值电信业务经营许可证</span>\r\n                <a target="_blank" href="http://assets.dwstatic.com/common/docs/B2-20050785.jpg">粤B2-20050785</a>\r\n                <a target="_blank" href="http://assets.dwstatic.com/common/docs/B2-20120129.jpg">B2-20120129</a>|\r\n                <a target="_blank" href="http://a.dwstatic.com/huya/main/img/huya_wlwh_xkz.png">粤网文[2015]1712-302号</a>\r\n            </p>\r\n            <p>\r\n                <a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备16120983号-1</a>|\r\n                <span><img src="http://yyweb.yystatic.com/pc/images/company/j.gif" alt="">粤公网安备44011302000242号 </span>|\r\n                <a target="_blank" href="http://assets.dwstatic.com/common/docs/4401060100548.jpg">穗公网监备案证第4401060100548号</a>|\r\n                <a target="_blank" href="http://www.gdca.gov.cn/">广东省通信管理局</a>|\r\n                <a target="_blank" href="http://a.dwstatic.com/huya/main/img/huya_wl_xkz.png">网络出版服务许可证</a>|\r\n                <a target="_blank" href="http://a.dwstatic.com/huya/main/img/huya_jm2_xkz.jpg">节目制作经营许可证</a>\r\n            </p>\r\n        </div>\r\n        <div class="huya-footer__copyright">\r\n            <p>\r\n                <span>广州飞豪信息科技有限公司</span>\r\n                <span>&nbsp;版权所有&nbsp;©&nbsp;2016-2019&nbsp;</span>\r\n                <a target="_blank" href="http://www.huya.com/">huya.com</a>\r\n                <a target="_blank" href="http://jb.ccm.gov.cn/" class="clickstat" eid="click/home/yejiao/jubao" eid_desc="点击/首页/页脚/举报">12318全国文化市场举报网站</a>\r\n                <a target="_blank" href="http://www.12377.cn/" class="clickstat" eid="click/home/yejiao/jubao2" eid_desc="点击/首页/页脚/举报2">中国互联网不良信息举报中心</a>\r\n                <span>客服&举报电话：020-82120010</span>\r\n            </p>\r\n        </div>\r\n        <div class="huya-footer__hy-logo">\r\n            <img src="http://a.dwstatic.com/huya/main/img/hy-logo.png" width="322" height="46"/>\r\n            <a target="_blank" id="_pingansec_bottomimagesmall_brand" href="http://si.trustutn.org/info?sn=950170109026610628628&certType=1"><img src="http://a.dwstatic.com/huya/main/img/brand_bottom_small.jpg"/></a>\r\n        </div>\r\n    </div>\r\n</div>\r\n';
 }
 return __p;
 }())
