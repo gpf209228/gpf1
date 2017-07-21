@@ -22,13 +22,14 @@ class UserController extends SumController
 		}
 	}
 
+
 	/*
 		普通用户列表
 	 */
 	public function actionPlain()
 	{
         $name=isset($_POST['user_name'])?$_POST['user_name']:"";
-		$userList = Yii::$app->db->createCommand("select * from user where user_name like '%$name%'")->queryAll();
+		$userList = Yii::$app->db->createCommand("select * from user where user_name like '%$name%' limit 20")->queryAll();
 //        print_r($userList);die;
 		return $this->render('plain',['userList' => $userList,'user'=>$name]);
 	}

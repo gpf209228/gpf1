@@ -12,6 +12,12 @@ class LoginController extends Controller
     /*
         管理员列表
      */
+    function init(){
+        parent::init();
+        if(Yii::$app->session['admin_name'] != ""){
+            echo "<script>location.href='?r=cat'</script>";
+        }
+    }
     public function actionIndex()
     {
         if($data = Yii::$app->request->post()){
