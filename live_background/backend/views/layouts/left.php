@@ -75,31 +75,31 @@ use yii\helpers\Url;
 									<a href="<?php echo Url::to(['user/plain']) ?>" class="dropdown-toggle">
 										<i class="double-angle-right"></i>
 										<i class="icon-eye-open"></i>
-											普通用户
+											用户
 									</a>
 								</li>
-								<li>
-									<a href="javascript:void(0)" class="dropdown-toggle">
-										<i class="double-angle-right"></i>
-										<i class="icon-eye-open"></i>
-											主播
-										<b class="arrow icon-angle-down"></b>
-									</a>
-									<ul class="submenu">
-										<li>
-											<a href="<?php echo Url::to(['user/wait']) ?>">
-												<i class="icon-eye-open"></i>
-												待审核列表
-											</a>
-										</li>
-										<li>
-											<a href="<?php echo Url::to(['user/start']) ?>">
-												<i class="icon-eye-open"></i>
-												已审核列表
-											</a>
-										</li>
-									</ul>
-								</li>
+<!--								<li>-->
+<!--									<a href="javascript:void(0)" class="dropdown-toggle">-->
+<!--										<i class="double-angle-right"></i>-->
+<!--										<i class="icon-eye-open"></i>-->
+<!--											主播-->
+<!--										<b class="arrow icon-angle-down"></b>-->
+<!--									</a>-->
+<!--									<ul class="submenu">-->
+<!--										<li>-->
+<!--											<a href="--><?php //echo Url::to(['user/wait']) ?><!--">-->
+<!--												<i class="icon-eye-open"></i>-->
+<!--												待审核列表-->
+<!--											</a>-->
+<!--										</li>-->
+<!--										<li>-->
+<!--											<a href="--><?php //echo Url::to(['user/start']) ?><!--">-->
+<!--												<i class="icon-eye-open"></i>-->
+<!--												已审核列表-->
+<!--											</a>-->
+<!--										</li>-->
+<!--									</ul>-->
+<!--								</li>-->
 							</ul>
 						</li>
 
