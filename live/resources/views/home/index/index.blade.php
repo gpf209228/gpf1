@@ -564,14 +564,14 @@
             <!--E 推广 -->
             <!--S 新闻 -->
             <div class="news-box">
-                  
-                    <h2 class="news-title ellipsis"><a target="_blank" class="J_g_resource clickstat" data-pos="index/news/tit" data-rsc="280" eid="click/push/indexnews/topnews" eid_desc="点击/活动/首页新闻/头条" href="http://blog.huya.com/policy/116" title="飞豪平台主播和公会准则">飞豪平台主播和公会准则</a></h2>
-                 
+                  @foreach($res as $k)
+                    <h2 class="news-title ellipsis"><a target="_blank" class="J_g_resource clickstat" data-pos="index/news/tit" data-rsc="280" eid="click/push/indexnews/topnews" eid_desc="点击/活动/首页新闻/头条" href="http://blog.huya.com/policy/116" title="飞豪平台主播和公会准则"><?= $k->article_title?></a></h2>
+                  @endforeach
                 <div class="news-main">
                       
                     <ul class="news-list">
                     @foreach($re as $k)
-                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4173" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/0" data-rsc="4173" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1" title="{{$k->article_title}}">{{$k->article_title}}</a><span class="news-time">{{date('Y-m', $k->article_time)}}</span></li>
+                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4173" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/0" data-rsc="4173" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1" title="{{$k->article_title}}">{{$k->article_title}}</a><span class="news-time">{{date('m/d', $k->article_time)}}</span></li>
                     @endforeach
                     </ul>                    
                             

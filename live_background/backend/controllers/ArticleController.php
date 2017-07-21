@@ -19,7 +19,7 @@ class ArticleController extends SumController
 	public function actionList()
 	{
 		$data = Article::find()->asArray();
-       	$pages = new Pagination(['totalCount' =>$data->count(), 'pageSize' => '1']);
+       	$pages = new Pagination(['totalCount' =>$data->count(), 'pageSize' => '4']);
        	$articleList = $data->offset($pages->offset)->limit($pages->limit)->all();
 		return $this->render('list',['articleList' => $articleList, 'pages' => $pages]);
 	}
