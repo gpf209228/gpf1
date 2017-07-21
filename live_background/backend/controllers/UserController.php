@@ -18,9 +18,16 @@ class UserController extends SumController
 		if($data = Yii::$app->request->post()){
 
 		}else{
-			return $this->render('admin');
+            $db=yii::$app->db;
+            $sql=$db->createCommand("select * from admin ")->queryAll();
+			return $this->render('admin',array('sql'=>$sql));
 		}
 	}
+//    function actionAa(){
+//        echo date('Y-m-d H-i-s',time());
+//
+//
+//    }
 
 
 	/*

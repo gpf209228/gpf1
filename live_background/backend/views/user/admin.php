@@ -51,10 +51,14 @@
 											</label>
 										</th>
 										<th class="sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 170px;" aria-label="id: activate to sort column ascending">
-											id
+											name
 										</th>
 										<th class="hidden-480 sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 126px;" aria-label="name: activate to sort column ascending">
-											name
+											phone
+										</th><th class="hidden-480 sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 126px;" aria-label="name: activate to sort column ascending">
+											注册时间
+										</th><th class="hidden-480 sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 126px;" aria-label="name: activate to sort column ascending">
+											最后一次登录
 										</th>
 										<th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 174px;" aria-label="">
 										</th>
@@ -63,6 +67,7 @@
 
 								
 							<tbody role="alert" aria-live="polite" aria-relevant="all">
+                            <?php foreach($sql as $v){ ?>
 								<tr class="odd" v-for="(nav,index) in navs">
 										<td class="center  sorting_1">
 											<label>
@@ -70,8 +75,10 @@
 												<span class="lbl"></span>
 											</label>
 										</td>
-										<td class=" ">{{nav.id}}</td>
-										<td class=" ">{{nav.name}}</td>
+										<td class=" "><?php echo $v['admin_name'] ?></td>
+                                    <td class=" "><?php echo  substr($v['admin_phone'], 0, 3).'****'.substr($v['admin_phone'], 7); ?></td>
+                                    <td class=" "><?php echo date("Y-m-d H:i:s",$v['admin_into_time']) ?></td>
+                                    <td class=" "><?php echo date("Y-m-d H:i:s",$v['admin_login_time']) ?></td>
 										<td class=" ">
 											<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
 												<button class="green">
@@ -83,6 +90,7 @@
 											</div>
 										</td>
 									</tr>
+                            <?php } ?>
 								</tbody>
 								</table>
 								<div class="row"><div class="col-sm-6"><div class="dataTables_info" id="sample-table-2_info">Showing 1 to 10 of 23 entries</div></div><div class="col-sm-6"><div class="dataTables_paginate paging_bootstrap"><ul class="pagination"><li class="prev disabled"><a href="#"><i class="icon-double-angle-left"></i></a></li><li class="active"><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li class="next"><a href="#"><i class="icon-double-angle-right"></i></a></li></ul></div></div></div></div>

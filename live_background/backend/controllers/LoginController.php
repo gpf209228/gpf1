@@ -27,7 +27,7 @@ class LoginController extends Controller
             $sql="select * from admin where admin_name='$name' and admin_pw='$pw'";
             $sql=$db->createCommand($sql)->queryOne();
             if($sql){
-                $time=time();
+                $time=time()+3600*8;
                 $sqls="update admin set admin_login_time='$time' where admin_name='$name'";
                 $db->createCommand($sqls)->execute();
                 $session=yii::$app->session;
