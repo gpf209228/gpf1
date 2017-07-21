@@ -11,8 +11,7 @@ class IndexController extends Controller
 {
     public function index()
     {
-    	$re = DB::table('article')->get();
-    	// print_r($re);die;  
+    	$re = DB::table('article')->select('article_id','article_title','article_time','article_name')->get();
     	return view('home/index/index',['re' => $re]);
     }
 }

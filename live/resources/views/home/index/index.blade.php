@@ -571,16 +571,15 @@
                       
                     <ul class="news-list">
                     @foreach($re as $k)
-                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4173" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/0" data-rsc="4173" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1" title="{{$k->article_title}}">{{$k->article_title}}</a><span class="news-time">07/12</span></li>
+                        <li class="news-item"><em class="news-type"><a class="news-type-link" target="_blank" href="http://blog.huya.com/news">新闻</a></em><a target="_blank" href="http://blog.huya.com/news/4173" class="J_g_resource news-link clickstat ellipsis" data-pos="index/news/list/0" data-rsc="4173" eid="click/push/indexnews/words1" eid_desc="点击/推荐/首页新闻/文字新闻1" title="{{$k->article_title}}">{{$k->article_title}}</a><span class="news-time">{{date('Y-m', $k->article_time)}}</span></li>
                     @endforeach
                     </ul>                    
                             
                 </div>
                 <div class="hotTag">
-                    <a class="link clickstat J_g_resource" data-pos="index/news/tag/0" data-rsc="292" target="_blank" href="http://www.cac.gov.cn/2017-07/12/m_1121305080.htm" title="网信办开展互联网直播企业备案工作" eid="click/push/indexnews/wordtab1" eid_desc="点击/活动/首页新闻/文字标签1">网信办开展互联网直播企业备案工作</a>
-                    <a class="link clickstat J_g_resource" data-pos="index/news/tag/1" data-rsc="284" target="_blank" href="http://blog.huya.com/news/4175" title="暑期开黑派对" eid="click/push/indexnews/wordtab2" eid_desc="点击/活动/首页新闻/文字标签2">暑期开黑派对</a>
-                    <a class="link clickstat J_g_resource" data-pos="index/news/tag/2" data-rsc="293" target="_blank" href="http://hd.huya.com/HMAsign/pc.html" title="HMA" eid="click/push/indexnews/wordtab3" eid_desc="点击/活动/首页新闻/文字标签3">HMA</a>
-                    <a class="link clickstat J_g_resource" data-pos="index/news/tag/3" data-rsc="289" target="_blank" href="http://blog.huya.com/news/4138" title="隐藏的歌后" eid="click/push/indexnews/wordtab4" eid_desc="点击/活动/首页新闻/文字标签4">隐藏的歌后</a>
+                    @foreach($re as $k)
+                    <a class="link clickstat J_g_resource" data-pos="index/news/tag/0" data-rsc="292" target="_blank" href="http://www.cac.gov.cn/2017-07/12/m_1121305080.htm" title="{{$k->article_title}}" eid="click/push/indexnews/wordtab1" eid_desc="点击/活动/首页新闻/文字标签1">{{$k->article_title}}</a>
+                    @endforeach
                         
                 </div>
                    

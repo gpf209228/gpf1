@@ -84,6 +84,19 @@
 
 					<div class="space-4"></div>
 
+					<div class="form-group">
+						<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 是否头条 </label>
+
+						<div class="col-sm-9">
+							<div class="col-xs-12 col-sm-15">
+								<input name="article_header" type="radio" value="1">是
+								<input name="article_header" type="radio" value="0">否
+							</div>
+						</div>
+					</div>
+
+					<div class="space-4"></div>
+
 					<div class="clearfix form-actions">
 						<div class="col-md-offset-2 col-md-9">
 							<button class="btn btn-info" type="submit">

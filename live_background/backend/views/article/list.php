@@ -66,6 +66,9 @@ use yii\widgets\LinkPager;
 										<th class="hidden-300 sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 126px;" aria-label="name: activate to sort column ascending">
 											添加时间
 										</th>
+										<th class="hidden-300 sorting" role="columnheader" tabindex="0" aria-controls="sample-table-2" rowspan="1" colspan="1" style="width: 126px;" aria-label="name: activate to sort column ascending">
+											是否头条
+										</th>
 										<th class="sorting_disabled" role="columnheader" rowspan="1" colspan="1" style="width: 174px;" aria-label="">
 											操作
 										</th>
@@ -87,6 +90,7 @@ use yii\widgets\LinkPager;
 										<td class=" "><?= $v['article_name']?></td>
 										<td><span class="click" id="<?php echo $v['article_id']?>"><?= $v['article_sort']?></span></td>
 										<td class=" "><?= date("Y-m-d",$v['article_time'])?></td>
+										<td class=" "><?php if($v['article_header']==1){echo '<span style="color:green">是</span>';}else{echo '<span style="color:red">否</span>';}?></td>
 										<td class=" ">
 											<div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
 												<a class="green" href="?r=article/save&id=<?= $v['article_id']?>">
