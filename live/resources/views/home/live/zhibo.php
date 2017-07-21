@@ -14,8 +14,8 @@
 
      <meta charset="utf-8">
 
-<title>在线直播_全部游戏直播_网络游戏直播 - 虎牙直播</title>
-    <base href="http://www.live.com/home/">
+<title>在线直播_全部游戏直播_网络游戏直播 - 飞豪直播</title>
+    <base href="http://www.lives.com/home/">
 
 <meta name="renderer" content="webkit">
 
@@ -23,9 +23,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="Keywords" content="热门游戏直播,高清游戏直播平台,电竞赛事直播,单机游戏直播,lol直播,dnf直播,吃货直播,娱乐直播厅,美女直播厅,电视台节目,虎牙直播huya"/>
+<meta name="Keywords" content="热门游戏直播,高清游戏直播平台,电竞赛事直播,单机游戏直播,lol直播,dnf直播,吃货直播,娱乐直播厅,美女直播厅,电视台节目,飞豪直播huya"/>
 
-<meta name="Description" content="虎牙直播为您提供高清、流畅的视频直播和各种游戏赛事的直播平台，除了英雄联盟lol直播、地下城与勇士dnf直播、穿越火线cf直播等热门游戏直播，更有美女直播厅、电视台节目、娱乐美女直播厅等24小时免费的在线直播内容。"/>
+<meta name="Description" content="飞豪直播为您提供高清、流畅的视频直播和各种游戏赛事的直播平台，除了英雄联盟lol直播、地下城与勇士dnf直播、穿越火线cf直播等热门游戏直播，更有美女直播厅、电视台节目、娱乐美女直播厅等24小时免费的在线直播内容。"/>
 
 
 
@@ -59,17 +59,17 @@
 
         <div class="duya-header-bd clearfix">
 
-            <h1 id="duya-header-logo" title="虎牙直播-虎牙TV-中国领先的互动直播平台">
+            <h1 id="duya-header-logo" title="飞豪直播-飞豪TV-中国领先的互动直播平台">
 
-                <a href="http://www.huya.com/" class="clickstat" eid="click/navi/logo" eid_desc="点击/导航/logo"><img src="images/logo.png" alt="虎牙直播" width="120" height="36"></a>
+                <a href="http://www.huya.com/" class="clickstat" eid="click/navi/logo" eid_desc="点击/导航/logo"><img src="images/logo.png" alt="飞豪直播" width="120" height="36"></a>
 
             </h1>
 
             <div class="duya-header-nav">
 
-               <span class="hy-nav-link"><a href="http://www.live.com/" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
+               <span class="hy-nav-link"><a href="http://www.lives.com/" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
 
-                <span class="hy-nav-link"><a href="http://www.live.com/live" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">直播</a></span>
+                <span class="hy-nav-link"><a href="http://www.lives.com/live" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">直播</a></span>
 
                 <div class="hy-nav-expand">
 
@@ -149,7 +149,7 @@
 
                             <a target="_blank" href="http://www.huya.com/download/#players_pc"><i class="hy-nav-play-icon"></i><span>主播工具</span></a>
 
-                            <!-- <a target="_blank" href="http://www.huya.com/download/#tv"><i class="hy-nav-tv-icon"></i><span>虎牙TV版</span></a> -->
+                            <!-- <a target="_blank" href="http://www.huya.com/download/#tv"><i class="hy-nav-tv-icon"></i><span>飞豪TV版</span></a> -->
 
                         </div>
 
@@ -1185,7 +1185,7 @@
 
             </a>
 
-    <a href="http://www.huya.com/520iu" class="title new-clickstat"report='{"eid":"click/position","position":"allLive/0/1/8","game_id":"1663","ayyuid":"1607275917"}' title="虎牙五黑谁怕谁  求 血瓶血瓶~" target="_blank">虎牙五黑谁怕谁  求 血瓶血瓶~</a>
+    <a href="http://www.huya.com/520iu" class="title new-clickstat"report='{"eid":"click/position","position":"allLive/0/1/8","game_id":"1663","ayyuid":"1607275917"}' title="飞豪五黑谁怕谁  求 血瓶血瓶~" target="_blank">飞豪五黑谁怕谁  求 血瓶血瓶~</a>
 
     <span class="txt">
 
@@ -1293,7 +1293,7 @@
 
         <em class="tag tag-blue">蓝光</em>    </a>
 
-    <a href="http://www.huya.com/bashen" class="title new-clickstat"report='{"eid":"click/position","position":"allLive/0/1/11","game_id":"1","ayyuid":"73274903"}' title="虎牙第一幸运手 帮你抽皮肤" target="_blank">虎牙第一幸运手 帮你抽皮肤</a>
+    <a href="http://www.huya.com/bashen" class="title new-clickstat"report='{"eid":"click/position","position":"allLive/0/1/11","game_id":"1","ayyuid":"73274903"}' title="飞豪第一幸运手 帮你抽皮肤" target="_blank">飞豪第一幸运手 帮你抽皮肤</a>
 
     <span class="txt">
 
@@ -1321,7 +1321,7 @@
 
         <a href="http://www.huya.com/huyalaosan52399193" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"allLive/0/1/12","game_id":"2752","ayyuid":"1596661722"}'>
 
-        <img class="pic" data-original="http://screenshot.dwstatic.com/yysnapshot/e7fe4249b4b13e6f3e5c36f0abb5e2ef5f8e6412?imageview/4/0/w/338/h/190/blur/1" src="images/default_live.jpg" alt="MH、虎牙老三的直播" title="MH、虎牙老三的直播">
+        <img class="pic" data-original="http://screenshot.dwstatic.com/yysnapshot/e7fe4249b4b13e6f3e5c36f0abb5e2ef5f8e6412?imageview/4/0/w/338/h/190/blur/1" src="images/default_live.jpg" alt="MH、飞豪老三的直播" title="MH、飞豪老三的直播">
 
         <em class="tag tag-recommend">达人推荐</em>        <div class="item-mask"></div>
 
@@ -1335,9 +1335,9 @@
 
         <span class="avatar fl">
 
-            <img data-original="http://huyaimg.dwstatic.com/avatar/1001/23/e2dd94abc3871f53b56c5e81e95071_180_135.jpg" src="images/default_profile.jpg" alt="MH、虎牙老三" title="MH、虎牙老三">
+            <img data-original="http://huyaimg.dwstatic.com/avatar/1001/23/e2dd94abc3871f53b56c5e81e95071_180_135.jpg" src="images/default_profile.jpg" alt="MH、飞豪老三" title="MH、飞豪老三">
 
-            <i class="nick" title="MH、虎牙老三">MH、虎牙老三</i>
+            <i class="nick" title="MH、飞豪老三">MH、飞豪老三</i>
 
         </span>
 
@@ -2013,7 +2013,7 @@
 
             </a>
 
-    <a href="http://www.huya.com/dalaohu" class="title new-clickstat"report='{"eid":"click/position","position":"allLive/0/1/31","game_id":"1","ayyuid":"305880273"}' title="虎牙王尼玛？王老师盲僧课堂开了同学们速回" target="_blank">虎牙王尼玛？王老师盲僧课堂开了同学们速回</a>
+    <a href="http://www.huya.com/dalaohu" class="title new-clickstat"report='{"eid":"click/position","position":"allLive/0/1/31","game_id":"1","ayyuid":"305880273"}' title="飞豪王尼玛？王老师盲僧课堂开了同学们速回" target="_blank">飞豪王尼玛？王老师盲僧课堂开了同学们速回</a>
 
     <span class="txt">
 
@@ -3597,7 +3597,7 @@
 
         <em class="tag tag-blue">蓝光</em>    </a>
 
-    <a href="http://www.huya.com/15661351" class="title new-clickstat"report='{"eid":"click/position","position":"allLive/0/1/80","game_id":"2336","ayyuid":"7998764"}' title="北鼻：虎牙村民 二哈教学" target="_blank">北鼻：虎牙村民 二哈教学</a>
+    <a href="http://www.huya.com/15661351" class="title new-clickstat"report='{"eid":"click/position","position":"allLive/0/1/80","game_id":"2336","ayyuid":"7998764"}' title="北鼻：飞豪村民 二哈教学" target="_blank">北鼻：飞豪村民 二哈教学</a>
 
     <span class="txt">
 
@@ -3697,7 +3697,7 @@
 
         <a href="http://www.huya.com/849419903" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"allLive/0/1/84","game_id":"2","ayyuid":"886574870"}'>
 
-        <img class="pic" data-original="http://screenshot.dwstatic.com/yysnapshot/d83b3d5238842b3d3dc545eef6503a011bec7c1f?imageview/4/0/w/338/h/190/blur/1" src="images/default_live.jpg" alt="虎牙丶雷锋的直播" title="虎牙丶雷锋的直播">
+        <img class="pic" data-original="http://screenshot.dwstatic.com/yysnapshot/d83b3d5238842b3d3dc545eef6503a011bec7c1f?imageview/4/0/w/338/h/190/blur/1" src="images/default_live.jpg" alt="飞豪丶雷锋的直播" title="飞豪丶雷锋的直播">
 
         <em class="tag tag-recommend">大神推荐</em>        <div class="item-mask"></div>
 
@@ -3711,9 +3711,9 @@
 
         <span class="avatar fl">
 
-            <img data-original="http://huyaimg.dwstatic.com/avatar/1043/2c/cbcef42924fa90c12f5529ae9dee92_180_135.jpg" src="images/default_profile.jpg" alt="虎牙丶雷锋" title="虎牙丶雷锋">
+            <img data-original="http://huyaimg.dwstatic.com/avatar/1043/2c/cbcef42924fa90c12f5529ae9dee92_180_135.jpg" src="images/default_profile.jpg" alt="飞豪丶雷锋" title="飞豪丶雷锋">
 
-            <i class="nick" title="虎牙丶雷锋">虎牙丶雷锋</i>
+            <i class="nick" title="飞豪丶雷锋">飞豪丶雷锋</i>
 
         </span>
 
@@ -4633,7 +4633,7 @@
 
         <a href="http://www.huya.com/miren6" class="video-info new-clickstat" target="_blank" report='{"eid":"click/position","position":"allLive/0/1/117","game_id":"2336","ayyuid":"1521068102"}'>
 
-        <img class="pic" data-original="http://screenshot.dwstatic.com/yysnapshot/3583f06605a949c93916385ee64c5170f67f9dad?imageview/4/0/w/338/h/190/blur/1" src="images/default_live.jpg" alt="虎牙-迷人的直播" title="虎牙-迷人的直播">
+        <img class="pic" data-original="http://screenshot.dwstatic.com/yysnapshot/3583f06605a949c93916385ee64c5170f67f9dad?imageview/4/0/w/338/h/190/blur/1" src="images/default_live.jpg" alt="飞豪-迷人的直播" title="飞豪-迷人的直播">
 
                 <div class="item-mask"></div>
 
@@ -4647,9 +4647,9 @@
 
         <span class="avatar fl">
 
-            <img data-original="http://huyaimg.dwstatic.com/avatar/1058/f1/54fee895b407f0ae32c6539cf3194f_180_135.jpg" src="images/default_profile.jpg" alt="虎牙-迷人" title="虎牙-迷人">
+            <img data-original="http://huyaimg.dwstatic.com/avatar/1058/f1/54fee895b407f0ae32c6539cf3194f_180_135.jpg" src="images/default_profile.jpg" alt="飞豪-迷人" title="飞豪-迷人">
 
-            <i class="nick" title="虎牙-迷人">虎牙-迷人</i>
+            <i class="nick" title="飞豪-迷人">飞豪-迷人</i>
 
         </span>
 

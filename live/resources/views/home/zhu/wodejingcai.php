@@ -7,7 +7,7 @@
         <meta name="Description" content="虎牙直播是国内领先的互动直播平台,900万人同时在线,提供高清、流畅的赛事直播和游戏直播.虎牙包含英雄联盟lol直播、dota2直播、穿越火线cf直播、dnf直播等热门游戏直播以及、美女主播、网络电视">
         <meta name="Keywords" content="lol直播,lol游戏直播,英雄联盟直播,dota2直播,dota直播,dnf直播,cf直播,游戏直播,赛事直播,YY直播,美女主播,虎牙,虎牙直播">
         <title>直播个人中心</title>
-        <base href="http://www.live.com/home/">
+        <base href="http://www.lives.com/home/">
         <link rel="stylesheet" href="css/admin.css">
         <style type="text/css">
         .main-col{*padding-bottom: 140px;}
@@ -89,7 +89,7 @@ function openThirdLoginTips(){
                     <h3 class="header">&nbsp;个人中心</h3>
                    <ul class="icon-filter">
                         <li>
-                            <a menu="home" href="http://www.live.com/per">
+                            <a menu="home" href="http://www.lives.com/per">
                                 <span class="icon icon-home"></span>
                                 <span class="title">
                                     我的信息
@@ -97,7 +97,7 @@ function openThirdLoginTips(){
                             </a>
                         </li>
                         <li>
-                            <a menu="subscribe" href="http://www.live.com/sub">
+                            <a menu="subscribe" href="http://www.lives.com/sub">
                                 <span class="icon icon-subscribe"></span>
                                 <span class="title">
                                     订阅与历史
@@ -105,7 +105,7 @@ function openThirdLoginTips(){
                             </a>
                         </li>
                         <li id="msg-li">
-                            <a menu="msg" href="http://www.live.com/msg">
+                            <a menu="msg" href="http://www.lives.com/msg">
                                 <span class="icon icon-msg"></span>
                                 <span class="title">
                                     我的消息1
@@ -113,7 +113,7 @@ function openThirdLoginTips(){
                             </a>
                         </li>
                         <li>
-                            <a menu="noble" href="http://http://www.live.com/sub">
+                            <a menu="noble" href="http://http://www.lives.com/sub">
                                 <span class="icon icon-noble"></span>
                                 <span class="title">
                                     我的贵族1
@@ -137,7 +137,7 @@ function openThirdLoginTips(){
                             </a>
                         </li>
                         <li>
-                            <a menu="money" href="http://http://www.live.com/money">
+                            <a menu="money" href="http://http://www.lives.com/money">
                                 <span class="icon icon-money"></span>
                                 <span class="title">
                                     我的财产

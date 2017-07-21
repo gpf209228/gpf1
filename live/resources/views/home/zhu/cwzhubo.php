@@ -9,7 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 
   <title>成为虎牙主播-启航明星之旅</title>
-<base href="http://www.live.com/home/">
+<base href="http://www.lives.com/home/">
   <link rel="stylesheet" href="css/main_2ff193a83c.css?t=0" charset="utf-8">
 
  </head>

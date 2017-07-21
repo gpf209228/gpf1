@@ -11,6 +11,8 @@ class IndexController extends Controller
 {
     public function index()
     {
-    	return view('home/index/index');
+    	$re = DB::table('article')->get();
+    	// print_r($re);die;  
+    	return view('home/index/index',['re' => $re]);
     }
 }

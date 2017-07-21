@@ -22,12 +22,12 @@
 
 
 
-        <meta name="description" content="胜率95%的男刀，虎牙直播近半年成长起来的英雄主播，学习能力和理解能力很强。声音很磁性，活跃气氛能力强，口头禅“弟弟救我”"/>
+        <meta name="description" content="胜率95%的男刀，飞豪直播近半年成长起来的英雄主播，学习能力和理解能力很强。声音很磁性，活跃气氛能力强，口头禅“弟弟救我”"/>
 
-    <meta name="Keywords" content="骚男,骚男直播间,骚男直播地址,弟弟救我,英雄联盟主播,yy英雄联盟主播,虎牙tv"/>
+    <meta name="Keywords" content="骚男,骚男直播间,骚男直播地址,弟弟救我,英雄联盟主播,yy英雄联盟主播,飞豪tv"/>
 
-    <title>骚男_90077骚男直播_虎牙直播</title>
-<base href="http://www.live.com/home/">
+    <title>骚男_90077骚男直播_飞豪直播</title>
+<base href="http://www.lives.com/home/">
     <link rel='canonical' href='http://www.huya.com/saonan'>
 
     <link type="text/css" rel="stylesheet" href="css/pages_modules_edf5626.css">
@@ -104,17 +104,17 @@
 
         <div class="duya-header-bd clearfix">
 
-            <h1 id="duya-header-logo" title="虎牙直播-虎牙TV-中国领先的互动直播平台">
+            <h1 id="duya-header-logo" title="飞豪直播-飞豪TV-中国领先的互动直播平台">
 
-                <a href="http://www.huya.com/" class="clickstat" eid="click/navi/logo" eid_desc="点击/导航/logo"><img src="images/logo.png" alt="虎牙直播" width="120" height="36"></a>
+                <a href="http://www.huya.com/" class="clickstat" eid="click/navi/logo" eid_desc="点击/导航/logo"><img src="images/logo.png" alt="飞豪直播" width="120" height="36"></a>
 
             </h1>
 
             <div class="duya-header-nav">
 
-                <span class="hy-nav-link"><a href="http://www.live.com/" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
+                <span class="hy-nav-link"><a href="http://www.lives.com/" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
 
-                <span class="hy-nav-link"><a href="http://www.live.com/live" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">直播</a></span>
+                <span class="hy-nav-link"><a href="http://www.lives.com/live" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">直播</a></span>
 
                 <div class="hy-nav-expand">
 
@@ -194,7 +194,7 @@
 
                             <a target="_blank" href="http://www.huya.com/download/#players_pc"><i class="hy-nav-play-icon"></i><span>主播工具</span></a>
 
-                            <!-- <a target="_blank" href="http://www.huya.com/download/#tv"><i class="hy-nav-tv-icon"></i><span>虎牙TV版</span></a> -->
+                            <!-- <a target="_blank" href="http://www.huya.com/download/#tv"><i class="hy-nav-tv-icon"></i><span>飞豪TV版</span></a> -->
 
                         </div>
 
@@ -592,11 +592,11 @@
 
         <div class="links">
 
-            <a class="links-1 clickstat" target="_blank" eid="click/zhibo/shouji/mobiledownload" eid_desc="点击/直播间/手机看/移动下载" href="http://www.huya.com/download/">虎牙移动客户端</a>
+            <a class="links-1 clickstat" target="_blank" eid="click/zhibo/shouji/mobiledownload" eid_desc="点击/直播间/手机看/移动下载" href="http://www.huya.com/download/">飞豪移动客户端</a>
 
-            <a class="links-2 clickstat" target="_blank" eid="click/zhibo/shouji/ipaddownload" eid_desc="点击/直播间/手机看/ipad下载" href="http://www.huya.com/download/#ipad">虎牙iPad客户端</a>
+            <a class="links-2 clickstat" target="_blank" eid="click/zhibo/shouji/ipaddownload" eid_desc="点击/直播间/手机看/ipad下载" href="http://www.huya.com/download/#ipad">飞豪iPad客户端</a>
 
-            <a class="links-3 clickstat" target="_blank" eid="click/zhibo/shouji/paddownload" eid_desc="点击/直播间/手机看/pad下载" href="http://www.huya.com/download/#pad">虎牙Pad客户端</a>
+            <a class="links-3 clickstat" target="_blank" eid="click/zhibo/shouji/paddownload" eid_desc="点击/直播间/手机看/pad下载" href="http://www.huya.com/download/#pad">飞豪Pad客户端</a>
 
         </div>
 

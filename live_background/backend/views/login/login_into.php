@@ -26,7 +26,7 @@
 <body>
 
 <div class="page-container">
-    <h1>Login</h1>
+    <h1>Register</h1>
     <form action="?r=login/login_into" method="post">
         <input type="text" name="admin_name" class="username" placeholder="Username">
         <input type="password" class="resq" name="admin_pw" class="password" placeholder="Password">
