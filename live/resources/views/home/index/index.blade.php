@@ -46,10 +46,10 @@
                 <a href="http://www.huya.com/" class="clickstat" eid="click/navi/logo" eid_desc="点击/导航/logo"><img src="http://a.dwstatic.com/huya/main/img/logo.png" alt="飞豪直播" width="120" height="36"></a>
             </h1>
             <div class="duya-header-nav">
-                <span class="hy-nav-link duya-header-on"><a href="http://www.huya.com/" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
+                <span class="hy-nav-link duya-header-on"><a href="http://www.lives.com/" class="hy-nav-title clickstat" eid="click/navi/home" eid_desc="点击/导航/首页">首页</a></span>
                 <span class="hy-nav-link"><a href="http://www.lives.com/live" class="hy-nav-title hiido_stat clickstat"  hiido_code="10004221" eid="click/navi/zhibo" eid_desc="点击/导航/直播">直播</a></span>
                 <div class="hy-nav-expand">
-                    <div class="hy-nav-title nav-main" id="nav-main"><a href="http://www.huya.com/g">分类</a><i class="icon-arrow"></i></div>
+                    <div class="hy-nav-title nav-main" id="nav-main"><a href="http://www.lives.com/cate">分类</a><i class="icon-arrow"></i></div>
                     <div class="nav-expand-list nav-expand-game">
                         <i class="arrow"></i>
                     </div>
@@ -719,91 +719,15 @@
                     </div>
                     <div class="box-bd">
                         <ul class="game-list clearfix" >
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/lol" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/1","game_id":"1"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/1-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="英雄联盟" title="英雄联盟" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">英雄联盟</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/wzry" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/2","game_id":"2336"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/2336-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="王者荣耀" title="王者荣耀" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">王者荣耀</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/qiuqiu" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/3","game_id":"2411"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/2411-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="球球大作战" title="球球大作战" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">球球大作战</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/ZJGAME" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/4","game_id":"1964"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/1964-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="主机游戏" title="主机游戏" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">主机游戏</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/xingxiu" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/5","game_id":"1663"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/1663-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="星秀" title="星秀" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">星秀</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/100044" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/6","game_id":"100044"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/100044-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="吃喝玩乐" title="吃喝玩乐" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">吃喝玩乐</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/100029" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/7","game_id":"100029"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/100029-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="热门手游" title="热门手游" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">热门手游</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/hearthstone" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/8","game_id":"393"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/393-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="炉石传说" title="炉石传说" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">炉石传说</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/MC" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/9","game_id":"1732"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/1732-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="我的世界" title="我的世界" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">我的世界</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/cf" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/10","game_id":"4"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/4-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="穿越火线" title="穿越火线" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">穿越火线</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/cfm" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/11","game_id":"2413"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/2413-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="CF枪战王者" title="CF枪战王者" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">CF枪战王者</p>
-    </a>
-</li>             
-    
-                                                                                    <li class="game-list-item">
-        <a target="_blank" href="http://www.huya.com/g/100047" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/12","game_id":"100047"}'>
-        <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/100047-S.jpg?t=1500206400" src="http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg" alt="跳伞专区" title="跳伞专区" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
-        <p class="title">跳伞专区</p>
-    </a>
-</li>             
-    
-                                                    </ul>
+                        @foreach($catList as $k)
+                           <li class="game-list-item">
+                                <a target="_blank" href="http://www.huya.com/g/lol" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/1","game_id":"1"}'>
+                                    <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/1-S.jpg?t=1500206400" src="{{$k->img}}" alt="{{$k->class_name}}" title="{{$k->class_name}}" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
+                                    <p class="title">{{$k->class_name}}</p>
+                                </a>
+                            </li>             
+                        @endforeach
+                        </ul>
                     </div>           
                 </div>
                             </div>

@@ -73,7 +73,7 @@
 
                 <div class="hy-nav-expand">
 
-                    <div class="hy-nav-title nav-main" id="nav-main"><a href="http://www.huya.com/g">分类</a><i class="icon-arrow"></i></div>
+                    <div class="hy-nav-title nav-main" id="nav-main"><a href="http://www.lives.com/cate">分类</a><i class="icon-arrow"></i></div>
 
                     <div class="nav-expand-list nav-expand-game">
 
