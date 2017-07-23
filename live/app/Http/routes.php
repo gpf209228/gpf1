@@ -25,6 +25,7 @@ Route::group(['namespace'=> 'Home'],function(){
 	 Route::get('/live','LiveController@index');
 	 //首页分类页面
 	 Route::get('/cate','CateController@index');
+	 Route::get('/cate/{id}','CateController@cate');
 	 //个人中心
 	 Route::get('/per','ZhuController@index');
 	 //我的消息

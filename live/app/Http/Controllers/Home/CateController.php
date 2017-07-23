@@ -11,9 +11,14 @@ class CateController extends Controller
 {
 	public function index()
     {
-    	$re = DB::table('column')->select('class_id','class_t_id','img','class_name')->where('class_t_id','1')->get();
     	$res = DB::table('column')->select('class_id','class_t_id','img','class_name')->where('class_t_id','0')->get();
-    	
+    	$re = DB::table('column')->select('class_id','class_t_id','img','class_name')->where('class_t_id','>',0)->get();
+    	return view('home/cate/index',['res' => $res,'re' => $re]);
+    }
+
+    public function cate($id){
+    	$res = DB::table('column')->select('class_id','class_t_id','img','class_name')->where('class_t_id','0')->get();
+    	$re = DB::table('column')->select('class_id','class_t_id','img','class_name')->where('class_t_id',$id)->get();
     	return view('home/cate/index',['re' => $re,'res' => $res]);
     }
 

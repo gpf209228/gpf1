@@ -245,7 +245,7 @@
 
                 </div>
 
-                <div class="hy-nav-right un-login">
+                <div class="hy-nav-right un-login" style="display: block;">
 
                     <div class="hy-nav-title">
 

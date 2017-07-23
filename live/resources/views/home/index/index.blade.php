@@ -721,8 +721,8 @@
                         <ul class="game-list clearfix" >
                         @foreach($catList as $k)
                            <li class="game-list-item">
-                                <a target="_blank" href="http://www.huya.com/g/lol" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/1","game_id":"1"}'>
-                                    <img class="pic-img" data-original="http://huyaimg.dwstatic.com/cdnimage/game/1-S.jpg?t=1500206400" src="{{$k->img}}" alt="{{$k->class_name}}" title="{{$k->class_name}}" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
+                                <a target="_blank" href="http://www.lives.com/cate/{{$k->class_id}}" class="pic new-clickstat" report='{"eid":"click/postion","position":"index/gameCard/1","game_id":"1"}'>
+                                    <img class="pic-img" data-original="{{$k->img}}" src="images/default_game_pc.jpg" alt="{{$k->class_name}}" title="{{$k->class_name}}" onerror="this.onerror='';this.src='http://assets.dwstatic.com/amkit/p/duya/common/img/default_game_pc.jpg'">
                                     <p class="title">{{$k->class_name}}</p>
                                 </a>
                             </li>             
