@@ -202,6 +202,7 @@
 
                         <i class="hy-nav-icon hy-nav-login-icon"></i>
                         <a role="button" data-category="UserAccount" data-action="login" data-toggle="modal" href="#login-modal">登录</a>
+                        <span>|</span>
                         <a role="button" data-category="UserAccount" data-action="login" data-toggle="modal" href="#signup-modal">注册</a>                       
                     </div>
 
