@@ -15,11 +15,11 @@ use yii\filters\AccessControl;
 		<meta name="description" content="站长素材提供Bootstrap模版,Bootstrap教程,Bootstrap中文翻译等相关Bootstrap插件下载" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- basic styles -->
-		<link href="/cat/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="/cat/css/font-awesome.min.css" />
+		<link href="cat/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="cat/css/font-awesome.min.css" />
 
 		<!--[if IE 7]>
-		  <link rel="stylesheet" href="/cat/css/font-awesome-ie7.min.css" />
+		  <link rel="stylesheet" href="cat/css/font-awesome-ie7.min.css" />
 		<![endif]-->
 
 		<!-- page specific plugin styles -->
@@ -30,25 +30,25 @@ use yii\filters\AccessControl;
 
 		<!-- ace styles -->
 
-		<link rel="stylesheet" href="/cat/css/ace.min.css" />
-		<link rel="stylesheet" href="/cat/css/ace-rtl.min.css" />
-		<link rel="stylesheet" href="/cat/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="cat/css/ace.min.css" />
+		<link rel="stylesheet" href="cat/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="cat/css/ace-skins.min.css" />
 
 		<!--[if lte IE 8]>
-		  <link rel="stylesheet" href="/cat/css/ace-ie.min.css" />
+		  <link rel="stylesheet" href="cat/css/ace-ie.min.css" />
 		<![endif]-->
 
 		<!-- inline styles related to this page -->
 
 		<!-- ace settings handler -->
 
-		<script src="/cat/js/ace-extra.min.js"></script>
+		<script src="cat/js/ace-extra.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
 		<!--[if lt IE 9]>
-		<script src="/cat/js/html5shiv.js"></script>
-		<script src="/cat/js/respond.min.js"></script>
+		<script src="cat/js/html5shiv.js"></script>
+		<script src="cat/js/respond.min.js"></script>
 		<![endif]-->
 	</head>
 
@@ -95,7 +95,7 @@ use yii\filters\AccessControl;
 						
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-								<img class="nav-user-photo" src="/cat/avatars/user.jpg" alt="Jason's Photo">
+								<img class="nav-user-photo" src="cat/avatars/user.jpg" alt="Jason's Photo">
 								<span class="user-info">
 									<small>欢迎光临,</small>
 									<?php

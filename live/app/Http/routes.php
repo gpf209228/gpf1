@@ -23,6 +23,9 @@ Route::group(['namespace'=> 'Home'],function(){
     ]);
 	 //首页直播页面
 	 Route::get('/live','LiveController@index');
+	 //文章详情页
+	 Route::get('/article','ArticleController@index');
+	 Route::get('/artDetails/{id}','IndexController@artDetails');
 	 //首页分类页面
 	 Route::get('/cate','CateController@index');
 	 Route::get('/cate/{id}','CateController@cate');

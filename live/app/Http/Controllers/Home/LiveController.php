@@ -12,7 +12,7 @@ class LiveController extends Controller
 	//首页直播页面
     public function index()
     {
-    	return view('home/live/zhibo');
+    	return view('home/live/index');
     }
     //直播间
     public function room() {
